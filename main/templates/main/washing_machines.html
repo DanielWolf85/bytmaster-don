@@ -1,0 +1,116 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+<!-- HEADER -->
+
+{% block header %}
+
+    {% include 'main/headers/header_washing_machines.html' %}
+
+{% endblock %}
+
+<!-- HEADER end -->
+
+{% block content %}
+
+<!-- TROUBLES -->
+<section class="troubles-wash">
+    <div class="container">
+        <div class="title-top">
+            <h2>итак, всё-таки она сломалась...</h2>
+        </div>
+        <div class="troubles-items">
+            <div class="trouble-image wow fadeInLeft">
+                <img src="{% static 'img/troubles/wash-trouble.png' %}" alt="wash-trouble">
+            </div>
+            <div class="troubles-list wow fadeInRight">
+                <div class="list">
+                    <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Машинка не включается</span>
+                    <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не нагревает воду</span>
+                    <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не сливает воду</span>
+                    <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не набирает воду</span>
+                    <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не отжимает белье</span>
+                    <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не открывается дверца</span>
+                </div>
+            </div>
+        </div>
+        <div class="title-bottom wow fadeInUp">
+            <h2><span>не отчаивайтесь...</span> мы вам поможем!</h2>
+            <img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka-green">
+        </div>
+    </div>
+</section>
+<!-- TRABLES end -->
+
+
+<!-- CHOICES -->
+
+{% include 'main/components/choices.html' %}
+
+<!-- CHOICES end -->
+
+
+<!-- PRICE-LIST -->
+<section class="price">
+    <div class="container">
+        <div class="price-title">
+            <h2>наш прайс на ремонт стиральных машин всех марок</h2>
+        </div>
+        <div class="price-content">
+            <table class="table">
+                <tr>
+                    <th class="first_th">неисправность стиральной машины</th>
+                    <th class="second_th">цена ремонта</th>
+                </tr>
+                <tr><td>Выезд мастера</td><td>Бесплатно</td></tr>
+                <tr><td>Диагностика</td><td>Бесплатно</td></tr>
+                <tr><td>Замена заливного шланга</td><td>от 500 руб</td></tr>
+                <tr><td>Замена сетевого шнура</td><td>от 500 руб</td></tr>
+                <tr><td>Устранение засора</td><td>от 700 руб</td></tr>
+                <tr><td>Замена клапана выбора воды</td><td>от 1000 руб</td></tr>
+                <tr><td>Замена ремня привода барабана</td><td>от 1000 руб</td></tr>
+                <tr><td>Замена датчика нагрева</td><td>от 1000 руб</td></tr>
+                <tr><td>Замена манжеты люка</td><td>от 1000 руб</td></tr>
+                <tr><td>Замена блокировки люка</td><td>от 1000 руб</td></tr>
+                <tr><td>Замена ТЭН</td><td>от 2000 руб</td></tr>
+                <tr><td>Замена мотора</td><td>от 2000 руб</td></tr>
+                <tr><td>Замена насоса</td><td>от 2000 руб</td></tr>
+                <tr><td>Ремонт электроники</td><td>от 2000 руб</td></tr>
+                <tr><td>Замена подшипников</td><td>от 3000 руб</td></tr>
+                <tr><td>Ремонт барабана</td><td>от 3500 руб</td></tr>
+            </table>
+            <p>* Указана стоимость ремонта без учета стоимости запчасти</p>
+        </div>
+    </div>
+</section>
+<!-- PRICE-LIST end -->
+
+
+<!-- REVIEWS -->
+
+{% include 'main/components/reviews.html' %}
+
+<!-- REVIEWS end -->
+
+
+<!-- BRANDS -->
+
+{% include 'main/components/brands.html' %}
+
+<!-- BRANDS end -->
+
+
+<!-- DISCOUNT -->
+    
+{% include 'main/components/discount.html' %}
+
+<!-- DISCOUNT end -->
+
+{% endblock %}
+
+
+{% block footer %}
+
+    {% include 'main/components/footer.html' %}
+
+{% endblock %}

@@ -1,0 +1,69 @@
+{% load static %}
+
+<body>
+
+	<!-- WARNING FOR IE -->
+
+	<!-- WARNING FOR IE -->
+
+
+	<div class="wrapper-main">
+		
+		
+		<!-- NAV -->
+		
+		{% include 'main/components/top_nav.html' %}
+
+		<!-- NAV end -->
+
+
+		<!-- HEADER -->
+
+		<header class="header-main">
+
+			<div class="header-logo">
+				<img class="miele" src="{% static 'img/logos/miele_logo.png' %}" alt="miele">
+			</div>
+			
+			
+			<div class="container">
+				
+				<div class="title">
+					<div class="title-square">
+						<h1>профессиональный ремонт бытовой техники</h1>
+						<span>							
+							<span class="item"><img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka">на дому</span>
+							<span class="item"><img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka">быстро и недорого</span>
+							<span class="item"><img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka">все модели</span>							
+						</span>				
+						<a>
+							<button class="target-btn" id="target-btn-vizvat-mastera" onclick="ym(62710786,'reachGoal','target-btn-vizvat-mastera'); zayavka_on();">
+								вызвать мастера
+							</button>
+						</a>
+					</div>
+				</div>
+				<div class="image">
+
+					<div class="social">
+						<a href="https://vk.com/public174262653" target="_blank">
+							<img class="social-item" src="{% static 'img/icons/social/icons8-vkontakte-48.png' %}" alt="vk">
+						</a>
+						<a href="https://ok.ru/group/61566536056877" target="_blank">
+							<img class="social-item" src="{% static 'img/icons/social/icons8-odnoklassniki-48.png' %}" alt="ok">
+						</a>
+						<a href="https://www.instagram.com/bytmaster_don/" target="_blank">
+							<img class="social-item" src="{% static 'img/icons/social/icons8-instagram-48.png' %}" alt="insta">
+						</a>
+					</div>
+
+					
+					
+				</div>
+			</div>
+			<div class="red-line">
+				<p><span class="white"></span></p>
+			</div>	
+		</header>
+
+		<!-- HEADER end -->

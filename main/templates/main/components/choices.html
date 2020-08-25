@@ -1,0 +1,47 @@
+{% load static %}
+
+<section class="choices">
+	<div class="choice-title">
+		<div class="red-line">
+			<h2>
+				<span class="black">выберите </span><span class="white">подходящий для Вас вариант</span>
+			</h2>
+		</div>
+	</div>
+
+	<div class="choice-items">
+		<div class="container">
+			<div class="item wow pulse">
+				<div class="image-container">
+					<img src="{% static 'img/choices/call.png' %}" alt="call">
+				</div>
+				<div class="desc">
+					<span class="title">
+						<span>звонок</span>
+					</span>						
+					<p>Вы просто звоните нам и рассказываете суть Вашей проблемы. Мы договариваемся с Вами о подходящем для Вас времени приезда мастера и обсуждаем остальные детали.</p>
+					<span class="call-free">
+						<span>Вызов мастера бесплатен!</span>
+					</span>
+					<a><button onclick="back_call_on();">+7 (863) 309-00-03</button></a>
+				</div>
+				
+			</div>
+			<div class="item wow pulse">
+				<div class="image-container">
+					<img src="{% static 'img/choices/back-call.png' %}" alt="back-call">
+				</div>
+				<div class="desc">
+					<span class="title">
+						<span>оформить заявку</span>
+					</span>						
+					<p>Вы заполняете короткую форму с описанием проблемы и указанием Вашего имени и телефона. В кратчайшие сроки Вам перезвонит специалист и уточнит все детали для вызова мастера.</p>
+					<span class="call-free">
+						<span>Вызов мастера бесплатен!</span>
+					</span>
+					<a><button onclick="zayavka_on();">оформить заявку</button></a>
+				</div>						
+			</div>
+		</div>
+	</div>
+</section>

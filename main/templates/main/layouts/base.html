@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<link rel="canonical" href="https://bytmaster-don.com/">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="yandex-verification" content="d9972d7c797b003a" />
+	<meta name="description" content="БытМастер - это профессиональный ремонт бытовой техники на дому. Выезд мастера и диагностика бесплатны. Демократические цены от 500р.">
+	<meta name="keywords" content="ремонт бытовой техники, ремонт техники miele, ремонт в Ростове-на-Дону">
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+       ym(62710786, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/62710786" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/chistka.css' %}">
+    <link rel="stylesheet" href="{% static 'css/ustanovka.css' %}">
+    <link rel="stylesheet" href="{% static 'css/adaptive_320.css' %}">
+    <link rel="stylesheet" href="{% static 'css/adaptive_480.css' %}">
+    <link rel="stylesheet" href="{% static 'css/adaptive_768.css' %}">
+    <link rel="stylesheet" href="{% static 'css/adaptive_992.css' %}">
+    <link rel="stylesheet" href="{% static 'css/adaptive_1200.css' %}">
+    <link rel="stylesheet" href="{% static 'css/adaptive_1350.css' %}">
+    <link rel="stylesheet" href="{% static 'css/adaptive_1500.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+
+    <!-- JS pre -->
+
+    <script src="{% static 'libs/jquery.js' %}"></script>
+    <script src="{% static 'libs/wow.min.js' %}"></script>
+    <script src="{% static 'js/wow_init.js' %}"></script>
+
+</head>
+<body>
+    <div class="content">
+        {% block header %}{% endblock %}
+        {% block content %}{% endblock %}
+        {% block footer %}{% endblock %}
+    </div>
+
+
+    <!-- JS post -->
+
+    <script src="{% static 'libs/slick.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>

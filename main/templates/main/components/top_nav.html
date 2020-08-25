@@ -1,0 +1,88 @@
+{% load static %}
+
+<div class="overlay"></div>
+
+
+
+<div class="general_nav" id="nav">
+	<div class="top-nav">
+		
+		<div class="logo">
+			<a href="#">
+				<img class="photo" src="{% static 'img/logos/logo-bottom-min2@1X.png' %}" alt="logo">
+			</a>
+		</div>
+
+		<nav class="nav">			
+			<div><a class="nav-item" href="{% url 'main:main_view' %}">Главная</a></div>
+			<div id="services">
+				<a class="nav-item" href="#">Услуги</a>
+				<ul class="sub-menu">
+					<li><a href="{% url 'main:refrigerators_view' %}">ремонт холодильников</a></li>
+					<li><a href="{% url 'main:washing_machines_view' %}">ремонт стиральных машин</a></li>
+					<li><a href="#">ремонт посудомоечных машин</a></li>
+					<li><a href="#">ремонт кофемашин</a></li>
+					<li><a href="#">ремонт газовых плит</a></li>
+					<li><a href="#">ремонт пылесосов</a></li>
+					<li><a href="#">установка и подключение</a></li>
+					<li><a href="#">чистка кондиционеров</a></li>
+				</ul>
+			</div>
+			<div><a class="nav-item" href="#">Контакты</a></div>
+			<div><a class="nav-item" href="#">Цены</a></div>
+			<div><a class="nav-item" href="#">О нас</a></div>	
+        </nav>
+        
+		<div class="phone">
+			<span class="phone-item">+7 (863) 309-00-03</span>
+			<a><button class="phone-btn" onclick="back_call_on();">заказать звонок</button></a>
+		</div>
+
+
+		<div class="burger" onclick="mobile_menu_on()">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+
+
+		<div class="mobile_nav mobile_disabled">
+			
+			<div class="cross" onclick="mobile_menu_off()">
+				X
+			</div>
+
+			<ul>
+				<li><a href="#">главная</a></li>
+				<li><a href="#">услуги</a></li>
+				<li><a href="#">контакты</a></li>
+				<li><a href="#">цены</a></li>
+				<li><a href="#">о нас</a></li>
+			</ul>
+			
+		</div>
+		
+	</div>
+	
+
+
+	<!-- POPUP -->
+
+	
+
+	<!-- POPUP end -->
+
+
+
+
+	<!-- СТРЕЛКА НАВЕРХ -->
+
+	<div class="to-top">
+		<a href="#nav">
+			<button id="to-top">&uarr;</button>
+		</a>
+	</div>
+
+	<!-- СТРЕЛКА НАВЕРХ end -->
+
+</div>

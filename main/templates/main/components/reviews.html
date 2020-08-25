@@ -1,0 +1,36 @@
+{% load static %}
+
+<section class="reviews wow fadeInUp">
+	<div class="container">
+		<div class="reviews-title">
+			<div class="like">
+				<img src="{% static 'img/icons/symbols/like.png' %}" alt="like">
+			</div>
+			<h2>отзывы наших клиентов</h2>
+		</div>
+		<div class="reviews-body">
+			
+			<!-- Цикл отображения отзывов -->
+					
+				<div class="review">
+					<div class="person">
+						<span class="name"></span>
+						<div class="stars">
+							<img src="{% static 'img/icons/symbols/star.png' %}" alt="star">
+							<img src="{% static 'img/icons/symbols/star.png' %}" alt="star">
+							<img src="{% static 'img/icons/symbols/star.png' %}" alt="star">
+							<img src="{% static 'img/icons/symbols/star.png' %}" alt="star">
+							<img src="{% static 'img/icons/symbols/star.png' %}" alt="star">
+						</div>
+					</div>
+					<div class="comment">
+						<p></p>
+					</div>
+					<p></p>
+				</div>
+
+            <!-- Цикл отображения отзывов end -->
+			
+		</div>
+	</div>
+</section>

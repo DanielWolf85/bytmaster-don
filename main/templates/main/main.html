@@ -1,0 +1,230 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+<!-- HEADER -->
+
+{% block header %}
+
+    {% include 'main/headers/header_main.html' %}
+
+{% endblock %}
+
+<!-- HEADER  end -->
+
+
+
+{% block content %}
+
+
+<!-- ADVANTAGE -->
+
+
+<section class="advantage">
+    <div class="container">
+        <h2><span>причины обратиться</span> именно к нам</h2>
+        <div class="items">
+            <div class="exp wow fadeInRight">
+                <div class="item">
+                    <div class="icon">
+                        <div class="image-container">
+                            <img src="{% static 'img/icons/advantage/exp.png' %}" alt="exp">
+                        </div>
+                        <p>опыт более 20 лет</p>
+                    </div>
+                    <div class="description">
+                        <p>У нас работают вежливые мастера с опытом более 20 лет и являются профессионалами своего дела в своей спецификации.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="profi wow fadeInLeft">
+                <div class="item">
+                    <div class="icon">
+                        <div class="image-container">
+                            <img src="{% static 'img/icons/advantage/profi.png' %}" alt="profi">
+                        </div>
+                        <p>профессиональное образование</p>
+                    </div>
+                    <div class="description">
+                        <p>Мы берем на работу мастеров только с профессиональным образованием в сфере ремонта бытовой техники, которые доказали свою компетентность и квалификацию.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="original wow fadeInRight">
+                <div class="item">
+                    <div class="icon">
+                        <div class="image-container">
+                            <img src="{% static 'img/icons/advantage/original.png' %}" alt="original">
+                        </div>
+                        <p>оригинальные запчасти</p>
+                    </div>
+                    <div class="description">
+                        <p>Мы используем в своей работе только оригинальные запчасти тех марок техники и брендов, которые ремонтируем. Заказ запчастей происходит от них напрямую.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="all wow fadeInLeft">
+                <div class="item">
+                    <div class="icon">
+                        <div class="image-container">
+                            <img src="{% static 'img/icons/advantage/all.png' %}" alt="all">
+                        </div>
+                        <p>ремонт всех марок техники</p>
+                    </div>
+                    <div class="description">
+                        <p>Мы ремонтируем все известные марки техники, а также многие старые марки. Позвоните нам и мы ответим на все интересующие Вас вопросы.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="garanty wow fadeInLeft">					
+                    <div class="icon">
+                        <div class="image-container">
+                            <img src="{% static 'img/icons/advantage/garanty.png' %}" alt="garanty">
+                        </div>
+                        <p>гарантия на все виды работ</p>
+                    </div>
+                    <div class="description">
+                        <p>Срок гарантии зависит от вида ремонта, и может составлять от 3-х месяцев до 1 года.</p>
+                    </div>
+                </div>
+                <div class="day wow fadeInRight">						
+                    <div class="icon">
+                        <div class="image-container">
+                            <img src="{% static 'img/icons/advantage/day.png' %}" alt="day">
+                        </div>
+                        <p>ремонт в день заявки</p>
+                    </div>
+                    <div class="description">
+                        <p>Весь процесс ремонта производится непосредственно в день обращения при наличии у нас всех нужных запчастей.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ADVANTAGE end -->
+
+
+
+<!-- CHOICE -->
+
+<section class="choice">
+    <div class="grey-line"></div>
+    <div class="choice-title">
+        <div class="red-line">
+            <h2>
+                <span class="black">наши услуги </span><span class="white">по ремонту и установке бытовой техники</span>
+            </h2>
+        </div>
+    </div>
+    <div class="container">
+        <a href="{% url 'main:refrigerators_view' %}" class="wow fadeInUp">
+            <div class="choice-item">
+                <img class="holod-image" src="{% static 'img/icons/technics/holod.png' %}" alt="holod">
+                <span class="choice-name">холодильник</span>
+                <button class="choice-btn">ремонт</button>
+            </div>
+        </a>
+        <a href="{% url 'main:washing_machines_view' %}" class="wow fadeInUp">		
+            <div class="choice-item">
+                <img src="{% static 'img/icons/technics/wash.png' %}" alt="wash">
+                <span class="choice-name">стиральная машина</span>
+                <button class="choice-btn">ремонт</button>
+            </div>
+        </a>
+        <a href="#" class="wow fadeInUp">
+            <div class="choice-item">
+                <img src="{% static 'img/icons/technics/posud.png' %}" alt="posud">
+                <span class="choice-name">посудомоечная машина</span>
+                <button class="choice-btn">ремонт</button>
+            </div>
+        </a>
+        <a href="#" class="wow fadeInUp">
+            <div class="choice-item">
+                    <img src="{% static 'img/icons/technics/cofee.png' %}" alt="cofee">
+                    <span class="choice-name">кофеварка</span>
+                    <button class="choice-btn">ремонт</button>
+            </div>
+        </a>
+        <a href="#" class="wow fadeInUp">
+            <div class="choice-item">
+                <img src="{% static 'img/icons/technics/gaz.png' %}" alt="gaz">
+                <span class="choice-name">газовая плита</span>
+                <button class="choice-btn">ремонт</button>
+            </div>
+        </a>
+        <a href="#" class="wow fadeInUp">
+            <div class="choice-item">
+                <img src="{% static 'img/icons/technics/pyl.png' %}" alt="pyl">
+                <span class="choice-name">пылесос</span>
+                <button class="choice-btn">ремонт</button>
+            </div>
+        </a>
+        <a href="#" class="wow fadeInUp">           
+            <div class="choice-item">               
+                    <img src="{% static 'img/icons/technics/ustanovka.jpg' %}" alt="ustanovka">               
+                <span class="choice-name">установка и подключение</span>
+                <button class="choice-btn">перейти</button>
+            </div>
+        </a>
+        <a href="#" class="wow fadeInUp">           
+            <span class="choice-item">               
+                <img src="{% static 'img/icons/technics/chistka.jpg' %}" alt="chistka">
+                <span class="choice-name">чистка кондиционеров</span>
+                <button class="choice-btn">перейти</button>
+            </span>
+        </a>
+    </div>
+</section>
+
+
+
+<!-- CHOICE end -->
+
+
+
+<!-- TEAM -->
+
+{% include 'main/components/team.html' %}
+
+<!-- TEAM end -->
+
+
+
+<!-- REVIEWS -->
+
+{% include 'main/components/reviews.html' %}
+
+<!-- REVIEWS end -->
+
+
+
+<!-- BRANDS -->
+
+{% include 'main/components/brands.html' %}
+
+<!-- BRANDS end -->
+
+
+
+<!-- DISCOUNT -->
+
+{% include 'main/components/discount.html' %}
+
+<!-- DISCOUNT end -->
+
+
+{% endblock %}
+
+
+<!-- FOOTER -->
+
+{% block footer %}
+
+    {% include 'main/components/footer.html' %}
+
+{% endblock %}
+
+<!-- FOOTER end -->
+

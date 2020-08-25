@@ -1,0 +1,515 @@
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 3.5px;
+  }
+  .wrapper-main {
+    grid-template-rows: minmax(70px, auto) minmax(430px, auto) minmax(770px, auto) minmax(1095px, auto) minmax(350px, auto) minmax(380px, auto) minmax(400px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .wrapper-holod {
+    grid-template-rows: minmax(70px, auto) minmax(400px, auto) minmax(370px, auto) minmax(900px, auto) minmax(350px, auto) minmax(380px, auto) minmax(400px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .wrapper-wash {
+    grid-template-rows: minmax(70px, auto) minmax(400px, auto) minmax(370px, auto) minmax(900px, auto) minmax(350px, auto) minmax(380px, auto) minmax(400px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .wrapper-posud {
+    grid-template-rows: minmax(70px, auto) minmax(400px, auto) minmax(370px, auto) minmax(900px, auto) minmax(350px, auto) minmax(380px, auto) minmax(400px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .wrapper-cofee {
+    grid-template-rows: minmax(70px, auto) minmax(400px, auto) minmax(370px, auto) minmax(900px, auto) minmax(350px, auto) minmax(850px, auto) minmax(400px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .wrapper-gaz {
+    grid-template-rows: minmax(70px, auto) minmax(400px, auto) minmax(370px, auto) minmax(900px, auto) minmax(350px, auto) minmax(380px, auto) minmax(400px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .wrapper-pyl {
+    grid-template-rows: minmax(70px, auto) minmax(400px, auto) minmax(370px, auto) minmax(900px, auto) minmax(350px, auto) minmax(380px, auto) minmax(400px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .header-main .header-logo .miele {
+    margin-left: 46%;
+  }
+  .header-main .container {
+    max-width: 700px;
+  }
+  .header-main .container .title .title-square {
+    max-width: 500px;
+    padding: 5rem 10rem 9rem 8rem;
+  }
+  .header-main .container .title .title-square h1 {
+    font-size: 5rem;
+    line-height: 9rem;
+  }
+  .header-main .container .title .title-square span {
+    font-size: 2.5rem;
+  }
+  .header-main .container .title .title-square span span {
+    line-height: 1rem;
+  }
+  .header-main .container .title .title-square a .target-btn {
+    width: 60rem;
+    height: 15rem;
+    font-size: 4rem;
+    border-radius: 4rem;
+  }
+  .header-main .container .image {
+    background-size: 90%;
+  }
+  .header-main .container .image .social {
+    margin-left: 7rem;
+  }
+  .header-main .container .image .social .social-item {
+    height: 6rem;
+  }
+  .header-main .container .image .miele {
+    width: 15rem;
+  }
+  .header-main .red-line {
+    height: 8rem;
+  }
+  .header-main .red-line p {
+    font-size: 3rem;
+  }
+  .header-holod .container {
+    max-width: 760px;
+  }
+  .header-holod .container .title .title-square {
+    height: 60%;
+    margin: 3rem;
+  }
+  .header-holod .container .title .title-square h1 {
+    font-size: 8rem;
+  }
+  .header-holod .red-line {
+    height: 8rem;
+  }
+  .header-holod .red-line p {
+    font-size: 3rem;
+  }
+  .header-wash .container {
+    max-width: 760px;
+  }
+  .header-wash .container .title .title-square {
+    height: 60%;
+    margin: 3rem;
+  }
+  .header-wash .container .title .title-square h1 {
+    font-size: 8rem;
+  }
+  .header-wash .red-line {
+    height: 8rem;
+  }
+  .header-wash .red-line p {
+    font-size: 3rem;
+  }
+  .header-posud .container {
+    max-width: 760px;
+    background-size: 35%;
+  }
+  .header-posud .container .title .title-square {
+    height: 60%;
+    margin: 3rem;
+  }
+  .header-posud .container .title .title-square h1 {
+    font-size: 8rem;
+  }
+  .header-posud .container .target a .target-btn {
+    width: 70rem;
+    height: 20rem;
+  }
+  .header-posud .red-line {
+    height: 8rem;
+  }
+  .header-posud .red-line p {
+    font-size: 3rem;
+  }
+  .header-cofee .container {
+    max-width: 760px;
+    background-size: 45%;
+  }
+  .header-cofee .container .title .title-square {
+    height: 60%;
+    margin: 3rem;
+  }
+  .header-cofee .container .title .title-square h1 {
+    font-size: 8rem;
+  }
+  .header-cofee .red-line {
+    height: 8rem;
+  }
+  .header-cofee .red-line p {
+    font-size: 3rem;
+  }
+  .header-gaz .container {
+    max-width: 760px;
+  }
+  .header-gaz .container .title .title-square {
+    height: 60%;
+    margin: 3rem;
+  }
+  .header-gaz .container .title .title-square h1 {
+    font-size: 8rem;
+  }
+  .header-gaz .red-line {
+    height: 8rem;
+  }
+  .header-gaz .red-line p {
+    font-size: 3rem;
+  }
+  .header-pyl .container {
+    max-width: 760px;
+  }
+  .header-pyl .container .title .title-square {
+    height: 60%;
+    margin: 3rem;
+  }
+  .header-pyl .container .title .title-square h1 {
+    font-size: 8rem;
+  }
+  .header-pyl .red-line {
+    height: 8rem;
+  }
+  .header-pyl .red-line p {
+    font-size: 3rem;
+  }
+  .general_nav .top-nav {
+    max-width: 700px;
+  }
+  .general_nav .top-nav .phone-item {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+  .general_nav .top-nav .phone-btn {
+    width: 40rem;
+    height: 7rem;
+  }
+  .advantage .container {
+    max-width: 100%;
+  }
+  .advantage .container h2 {
+    font-size: 5rem;
+    margin: 15rem auto 15rem auto;
+  }
+  .advantage .container h2 span {
+    color: white;
+  }
+  .advantage .container .items {
+    grid-template-rows: minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto);
+    text-align: center;
+  }
+  .advantage .container .items .exp {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .exp .item {
+    padding-top: 4rem;
+    margin-left: -10rem;
+  }
+  .advantage .container .items .exp .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .exp .item .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .exp .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .exp .item .description p {
+    display: none;
+  }
+  .advantage .container .items .profi {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .profi .item {
+    padding-top: 4rem;
+    margin-right: -10rem;
+  }
+  .advantage .container .items .profi .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .profi .item .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .profi .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .profi .item .description p {
+    display: none;
+  }
+  .advantage .container .items .original {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item {
+    padding-top: 4rem;
+    margin-left: -10rem;
+  }
+  .advantage .container .items .original .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .original .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .original .item .description p {
+    display: none;
+  }
+  .advantage .container .items .all {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item {
+    padding-top: 4rem;
+    margin-right: -10rem;
+  }
+  .advantage .container .items .all .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .all .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .all .item .description p {
+    display: none;
+  }
+  .advantage .container .items .row {
+    justify-content: center;
+  }
+  .advantage .container .items .row .garanty {
+    width: 30%;
+    margin-right: 2rem;
+    display: none;
+  }
+  .advantage .container .items .row .garanty .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .row .garanty .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .row .garanty .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .row .garanty .description p {
+    display: none;
+  }
+  .advantage .container .items .row .day {
+    width: 30%;
+    margin-left: 2rem;
+    display: none;
+  }
+  .advantage .container .items .row .day .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .row .day .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .row .day .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .row .day .description p {
+    display: none;
+  }
+  .troubles-holod .container {
+    max-width: 700px;
+  }
+  .troubles-wash .container {
+    max-width: 700px;
+  }
+  .troubles-posud .container {
+    max-width: 700px;
+  }
+  .troubles-cofee .container {
+    max-width: 700px;
+  }
+  .troubles-gaz .container {
+    max-width: 700px;
+  }
+  .troubles-pyl .container {
+    max-width: 700px;
+  }
+  .choice .container {
+    max-width: 700px;
+  }
+  .choices .choice-title .red-line {
+    height: 20rem;
+    margin-top: 8rem;
+    margin-bottom: 20rem;
+  }
+  .choices .choice-items .container {
+    max-width: 700px;
+  }
+  .choices .choice-items .container .item .image-container {
+    width: 50%;
+  }
+  .choices .choice-items .container .item .image-container img {
+    height: 50rem;
+    margin: 10rem;
+  }
+  .choices .choice-items .container .item .desc .title {
+    font-size: 4rem;
+  }
+  .choices .choice-items .container .item .desc a button {
+    font-family: "Calibri";
+    text-transform: uppercase;
+    font-size: 5rem;
+    width: 60rem;
+    height: 15rem;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 4rem;
+    transition: 0.3s;
+  }
+  .team .container {
+    max-width: 650px;
+  }
+  .team .container .team-title h2 {
+    font-size: 5rem;
+  }
+  .team .container .team-row .arrow-left {
+    width: 8rem;
+    height: 8rem;
+  }
+  .team .container .team-row .team-avatars .item .icon-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .team .container .team-row .team-avatars .item .name {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .team .container .team-row .arrow-right {
+    width: 8rem;
+    height: 8rem;
+  }
+  .reviews .container .reviews-body {
+    height: 100%;
+  }
+  .reviews .container .reviews-body .review .comment p {
+    font-size: 3.5rem;
+  }
+  .discount {
+    background-image: none;
+    color: white;
+    background-color: black;
+    right: 0;
+    padding: 0rem;
+    border: 1px solid black;
+  }
+  .discount .container {
+    max-width: 700px;
+    align-items: center;
+    color: white;
+  }
+  .discount .container .discount-title {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+    color: white;
+  }
+  .discount .container .discount-title h2 {
+    color: white;
+  }
+  .discount .container .discount-title h2 span {
+    color: black;
+  }
+  .discount .container .discount-text {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+  }
+  .discount .container .discount-text p {
+    font-family: "Calibri";
+    font-size: 4rem;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+  }
+  .discount .container .discount-text p span {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .discount .container .discount-btn {
+    margin: 0 auto;
+  }
+  .discount .container .discount-btn a button {
+    background-color: green;
+  }
+  .footer {
+    border: none;
+  }
+  .footer .container {
+    max-width: 800px;
+    padding: 4rem;
+  }
+  .footer .container .right-section .footer-logo {
+    height: 10rem;
+  }
+  .footer .container .discount-btn {
+    margin: 0 auto 7rem auto;
+  }
+  .footer .container .discount-btn a button {
+    font-size: 5rem;
+    width: 80rem;
+    height: 18rem;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 4rem;
+    transition: 0.3s;
+  }
+  .footer .container .discount-btn a button:hover {
+    cursor: pointer;
+    background-color: #02ff38;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+  }
+  .footer-target_button_version {
+    border: none;
+  }
+  .footer-target_button_version .footer2__container {
+    max-width: 800px;
+    padding: 4rem;
+  }
+  .footer-target_button_version .footer2__container .footer2__center-section .target-btn {
+    width: 50rem;
+    height: 20rem;
+    font-size: 4rem;
+  }
+  .footer-target_button_version .footer2__container .footer2__right-section .footer2__footer-logo {
+    height: 10rem;
+  }
+  .discounts-page .container .discounts-page__item {
+    max-width: 90%;
+    padding: 5rem 5rem;
+  }
+  .discounts-page .container .discounts-page__item .discounts-page__image-container {
+    padding: 4rem;
+  }
+  .discounts-page .container .discounts-page__item .discounts-page__image-container img {
+    height: 90%;
+  }
+  .discounts-page .container .discounts-page__item .discounts-page__desc .title {
+    padding: 0 4rem;
+  }
+  .discounts-page .container .discounts-page__item .discounts-page__desc .desc {
+    font-size: 5rem;
+    padding: 2rem 4rem;
+  }
+}
+/*# sourceMappingURL=adaptive_992.css.map */

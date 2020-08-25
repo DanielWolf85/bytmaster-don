@@ -1,0 +1,1810 @@
+/*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-width: 1500px) {
+  html {
+    font-size: 4.5px;
+  }
+  .wrapper-main {
+    grid-template-rows: minmax(121px, auto) minmax(682px, auto) minmax(1250px, auto) minmax(1395px, auto) 511px minmax(427px, auto) minmax(450px, auto) minmax(590px, auto) minmax(285px, auto);
+  }
+  .header-main .container {
+    max-width: 1100px;
+  }
+  .top-nav {
+    width: 1100px;
+  }
+  .advantage .container {
+    max-width: 1100px;
+  }
+  .advantage .container h2 {
+    font-size: 5rem;
+    margin: 15rem auto 20rem auto;
+  }
+  .advantage .container .items {
+    grid-template-rows: minmax(30rem, auto) minmax(30rem, auto) minmax(30rem, auto) minmax(30rem, auto) minmax(28rem, auto);
+  }
+  .advantage .container .items .exp .item {
+    margin-left: 6rem;
+  }
+  .advantage .container .items .profi .item {
+    margin-right: 6rem;
+  }
+  .advantage .container .items .original .item {
+    margin-left: 6rem;
+  }
+  .advantage .container .items .all .item {
+    margin-right: 6rem;
+  }
+  .advantage .container .items .row .garanty {
+    margin-left: 6rem;
+    width: 45%;
+  }
+  .advantage .container .items .row .day {
+    margin-right: 6rem;
+    width: 45%;
+  }
+  .choice .choice-title .red-line {
+    margin-bottom: 20rem;
+  }
+  .choice .container a .choice-btn {
+    background-image: -moz-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    background-image: -webkit-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    background-image: -ms-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    width: 40rem;
+    height: 10rem;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+    font-family: "Calibri";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.2s;
+  }
+  .choice .container a .choice-btn:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+    box-shadow: 0px 8px 8.2px 1.8px rgba(144, 144, 144, 0.82);
+    background-image: -moz-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+    background-image: -webkit-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+    background-image: -ms-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+  }
+  .team .container {
+    max-width: 1000px;
+  }
+  .reviews .container {
+    max-width: 1100px;
+  }
+  .brands .container {
+    max-width: 1100px;
+  }
+  .footer .container {
+    max-width: 1100px;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  html {
+    font-size: 4.2px;
+  }
+  .wrapper-main {
+    grid-template-rows: minmax(100px, auto) minmax(582px, auto) minmax(950px, auto) minmax(1195px, auto) 400px minmax(350px, auto) minmax(450px, auto) minmax(590px, auto) minmax(250px, auto);
+  }
+  .header-main .container {
+    max-width: 950px;
+  }
+  .header-main .container .title .title-square {
+    max-width: 500px;
+    padding: 40px 44px 30px 34px;
+  }
+  .header-main .container .image {
+    background-size: 90%;
+  }
+  .header-main .container .image .social {
+    margin-left: 5rem;
+  }
+  .header-main .container .image .social .social-item {
+    height: 7rem;
+  }
+  .header-main .red-line {
+    height: 13rem;
+  }
+  .top-nav {
+    max-width: 950px;
+  }
+  .advantage .container {
+    max-width: 950px;
+  }
+  .advantage .container h2 {
+    font-size: 5rem;
+    margin: 15rem auto 20rem auto;
+  }
+  .advantage .container h2 span {
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+  }
+  .advantage .container .items {
+    grid-template-rows: minmax(15rem, auto) minmax(15rem, auto) minmax(15rem, auto) minmax(15rem, auto) minmax(18rem, auto);
+  }
+  .advantage .container .items .exp .item {
+    margin-left: 6rem;
+  }
+  .advantage .container .items .exp .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .exp .item .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .exp .item .description p {
+    font-size: 2.5rem;
+  }
+  .advantage .container .items .profi .item {
+    margin-right: 6rem;
+  }
+  .advantage .container .items .profi .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .profi .item .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .profi .item .description p {
+    font-size: 2.5rem;
+  }
+  .advantage .container .items .original .item {
+    margin-left: 6rem;
+  }
+  .advantage .container .items .original .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .original .item .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .original .item .description p {
+    font-size: 2.5rem;
+  }
+  .advantage .container .items .all .item {
+    margin-right: 6rem;
+  }
+  .advantage .container .items .all .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .all .item .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .all .item .description p {
+    font-size: 2.5rem;
+  }
+  .advantage .container .items .row .garanty {
+    margin-left: 6rem;
+  }
+  .advantage .container .items .row .garanty .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .row .garanty .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .row .garanty .description p {
+    font-size: 2.5rem;
+  }
+  .advantage .container .items .row .day .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .row .day .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .row .day .description p {
+    font-size: 2.5rem;
+  }
+  .advantage .container .items .row .day {
+    margin-right: 6rem;
+  }
+  .choice .choice-title .red-line {
+    margin-bottom: 20rem;
+  }
+  .choice .choice-title .red-line h2 {
+    font-size: 5rem;
+  }
+  .choice .choice-title .red-line h2 .black {
+    background-color: white;
+    margin-right: 2rem;
+  }
+  .choice .container {
+    max-width: 900px;
+  }
+  .choice .container a .choice-btn {
+    background-image: -moz-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    background-image: -webkit-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    background-image: -ms-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    width: 40rem;
+    height: 10rem;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+    font-family: "Calibri";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.2s;
+  }
+  .choice .container a .choice-btn:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+    box-shadow: 0px 8px 8.2px 1.8px rgba(144, 144, 144, 0.82);
+    background-image: -moz-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+    background-image: -webkit-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+    background-image: -ms-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+  }
+  .team .container {
+    max-width: 800px;
+  }
+  .team .container .team-title h2 {
+    font-size: 5rem;
+  }
+  .team .container .team-row .arrow-left {
+    width: 8rem;
+    height: 8rem;
+  }
+  .team .container .team-row .team-avatars .item .icon-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .team .container .team-row .team-avatars .item .name {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .team .container .team-row .arrow-right {
+    width: 8rem;
+    height: 8rem;
+  }
+  .reviews .container {
+    max-width: 950px;
+  }
+  .reviews .container .reviews-title .like {
+    width: 10rem;
+    height: 10rem;
+  }
+  .reviews .container .reviews-title h2 {
+    font-size: 4rem;
+  }
+  .reviews .container .reviews-body .arrow-left {
+    width: 8rem;
+    height: 8rem;
+  }
+  .reviews .container .reviews-body .review .person .name {
+    font-size: 4rem;
+  }
+  .reviews .container .reviews-body .review .person .stars img {
+    height: 4rem;
+  }
+  .reviews .container .reviews-body .review .comment p {
+    font-size: 2.5rem;
+  }
+  .reviews .container .reviews-body .arrow-right {
+    width: 8rem;
+    height: 8rem;
+  }
+  .brands .container {
+    max-width: 1100px;
+  }
+  .brands .container .brands-title {
+    margin-bottom: 14rem;
+  }
+  .brands .container .brands-title h2 {
+    font-size: 4rem;
+  }
+  .brands .container .brands-list .row img {
+    height: 60%;
+  }
+  .discount {
+    background-size: contain;
+  }
+  .discount .container {
+    max-width: 1100px;
+  }
+  .footer {
+    border: none;
+  }
+  .footer .container {
+    max-width: 950px;
+  }
+  .footer .container .right-section .footer-logo {
+    height: 10rem;
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 4px;
+  }
+  .wrapper-main {
+    grid-template-rows: minmax(80px, auto) minmax(452px, auto) minmax(870px, auto) minmax(1095px, auto) 350px minmax(350px, auto) minmax(400px, auto) minmax(500px, auto) minmax(200px, auto);
+  }
+  .header-main .container {
+    max-width: 800px;
+  }
+  .header-main .container .title .title-square {
+    max-width: 500px;
+    padding: 5rem 10rem 9rem 8rem;
+  }
+  .header-main .container .title .title-square h1 {
+    font-size: 5rem;
+    line-height: 9rem;
+  }
+  .header-main .container .title .title-square span {
+    font-size: 2.5rem;
+  }
+  .header-main .container .title .title-square span span {
+    line-height: 1rem;
+  }
+  .header-main .container .title .title-square a .target-btn {
+    width: 60rem;
+    height: 15rem;
+    font-size: 4rem;
+    border-radius: 4rem;
+  }
+  .header-main .container .image {
+    background-size: 90%;
+  }
+  .header-main .container .image .social {
+    margin-left: 7rem;
+  }
+  .header-main .container .image .social .social-item {
+    height: 6rem;
+  }
+  .header-main .container .image .miele {
+    width: 15rem;
+  }
+  .header-main .red-line {
+    height: 10rem;
+  }
+  .header-main .red-line p {
+    font-size: 3rem;
+  }
+  .top-nav {
+    max-width: 800px;
+  }
+  .top-nav .phone-item {
+    font-size: 3rem;
+  }
+  .top-nav .phone-btn {
+    width: 40rem;
+    height: 7rem;
+  }
+  .advantage .container {
+    max-width: 800px;
+  }
+  .advantage .container h2 {
+    font-size: 5rem;
+    margin: 15rem auto 15rem auto;
+  }
+  .advantage .container h2 span {
+    color: white;
+  }
+  .advantage .container .items {
+    grid-template-rows: minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto);
+  }
+  .advantage .container .items .exp .item {
+    margin-left: 6rem;
+    padding: 2rem 7rem 1rem 4rem;
+  }
+  .advantage .container .items .exp .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .exp .item .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .exp .item .description p {
+    font-size: 2.5rem;
+    padding-left: 7rem;
+  }
+  .advantage .container .items .profi .item {
+    margin-right: 6rem;
+  }
+  .advantage .container .items .profi .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .profi .item .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .profi .item .description p {
+    font-size: 2.5rem;
+    padding-left: 7rem;
+  }
+  .advantage .container .items .original .item {
+    margin-left: 6rem;
+  }
+  .advantage .container .items .original .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .original .item .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .original .item .description p {
+    font-size: 2.5rem;
+    padding-left: 7rem;
+  }
+  .advantage .container .items .all .item {
+    margin-right: 6rem;
+  }
+  .advantage .container .items .all .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .all .item .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .all .item .description p {
+    font-size: 2.5rem;
+    padding-left: 7rem;
+  }
+  .advantage .container .items .row .garanty {
+    margin-left: 6rem;
+  }
+  .advantage .container .items .row .garanty .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .row .garanty .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .row .garanty .description p {
+    font-size: 2.5rem;
+    padding-left: 7rem;
+  }
+  .advantage .container .items .row .day .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .row .day .icon p {
+    font-size: 2rem;
+  }
+  .advantage .container .items .row .day .description p {
+    font-size: 2.5rem;
+    padding-left: 7rem;
+  }
+  .advantage .container .items .row .day {
+    margin-right: 6rem;
+  }
+  .choice .choice-title .red-line {
+    margin-bottom: 20rem;
+  }
+  .choice .choice-title .red-line h2 {
+    font-size: 5rem;
+  }
+  .choice .choice-title .red-line h2 .black {
+    background-color: white;
+    margin-right: 2rem;
+  }
+  .choice .container {
+    max-width: 800px;
+  }
+  .choice .container a .choice-item {
+    width: 45rem;
+    height: 85rem;
+  }
+  .choice .container a .choice-item img {
+    height: 40%;
+  }
+  .choice .container a .choice-item .holod-image {
+    height: 50%;
+  }
+  .choice .container a .choice-item .choice-name {
+    font-size: 3rem;
+  }
+  .choice .container a .choice-item .choice-btn {
+    width: 35rem;
+    height: 9rem;
+  }
+  .choice .container a .choice-btn {
+    background-image: -moz-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    background-image: -webkit-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    background-image: -ms-linear-gradient(121deg, #00b000 0%, #4fff4f 100%);
+    width: 40rem;
+    height: 10rem;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+    font-family: "Calibri";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.2s;
+  }
+  .choice .container a .choice-btn:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+    box-shadow: 0px 8px 8.2px 1.8px rgba(144, 144, 144, 0.82);
+    background-image: -moz-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+    background-image: -webkit-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+    background-image: -ms-linear-gradient(100deg, #69f969 0%, #63e063 100%);
+  }
+  .team .container {
+    max-width: 750px;
+  }
+  .team .container .team-title h2 {
+    font-size: 5rem;
+  }
+  .team .container .team-row .arrow-left {
+    width: 8rem;
+    height: 8rem;
+  }
+  .team .container .team-row .team-avatars .item .icon-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .team .container .team-row .team-avatars .item .name {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .team .container .team-row .arrow-right {
+    width: 8rem;
+    height: 8rem;
+  }
+  .reviews .container {
+    max-width: 800px;
+  }
+  .reviews .container .reviews-title .like {
+    width: 10rem;
+    height: 10rem;
+  }
+  .reviews .container .reviews-title h2 {
+    font-size: 4rem;
+  }
+  .reviews .container .reviews-body {
+    height: 40rem;
+  }
+  .reviews .container .reviews-body .arrow-left {
+    width: 8rem;
+    height: 8rem;
+  }
+  .reviews .container .reviews-body .review .person .name {
+    font-size: 4rem;
+  }
+  .reviews .container .reviews-body .review .person .stars img {
+    height: 4rem;
+  }
+  .reviews .container .reviews-body .review .comment p {
+    font-size: 2.5rem;
+  }
+  .reviews .container .reviews-body .arrow-right {
+    width: 8rem;
+    height: 8rem;
+  }
+  .brands .container {
+    max-width: 1100px;
+  }
+  .brands .container .brands-title {
+    margin-bottom: 14rem;
+  }
+  .brands .container .brands-title h2 {
+    font-size: 4rem;
+  }
+  .brands .container .brands-list .row img {
+    height: 60%;
+  }
+  .discount {
+    background-size: contain;
+  }
+  .discount .container {
+    max-width: 1000px;
+  }
+  .footer {
+    border: none;
+  }
+  .footer .container {
+    max-width: 800px;
+    padding: 4rem;
+  }
+  .footer .container .right-section .footer-logo {
+    height: 10rem;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 3.5px;
+  }
+  .wrapper-main {
+    grid-template-rows: minmax(70px, auto) minmax(430px, auto) minmax(770px, auto) minmax(1095px, auto) minmax(350px, auto) minmax(350px, auto) minmax(400px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .header-main .container {
+    max-width: 700px;
+  }
+  .header-main .container .title .title-square {
+    max-width: 500px;
+    padding: 5rem 10rem 9rem 8rem;
+  }
+  .header-main .container .title .title-square h1 {
+    font-size: 5rem;
+    line-height: 9rem;
+  }
+  .header-main .container .title .title-square span {
+    font-size: 2.5rem;
+  }
+  .header-main .container .title .title-square span span {
+    line-height: 1rem;
+  }
+  .header-main .container .title .title-square a .target-btn {
+    width: 60rem;
+    height: 15rem;
+    font-size: 4rem;
+    border-radius: 4rem;
+  }
+  .header-main .container .image {
+    background-size: 90%;
+  }
+  .header-main .container .image .social {
+    margin-left: 7rem;
+  }
+  .header-main .container .image .social .social-item {
+    height: 6rem;
+  }
+  .header-main .container .image .miele {
+    width: 15rem;
+  }
+  .header-main .red-line {
+    height: 8rem;
+  }
+  .header-main .red-line p {
+    font-size: 3rem;
+  }
+  .top-nav {
+    max-width: 700px;
+  }
+  .top-nav .phone-item {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+  .top-nav .phone-btn {
+    width: 40rem;
+    height: 7rem;
+  }
+  .advantage .container {
+    max-width: 100%;
+  }
+  .advantage .container h2 {
+    font-size: 5rem;
+    margin: 15rem auto 15rem auto;
+  }
+  .advantage .container h2 span {
+    color: white;
+  }
+  .advantage .container .items {
+    grid-template-rows: minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto);
+    text-align: center;
+  }
+  .advantage .container .items .exp {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .exp .item {
+    padding-top: 4rem;
+    margin-left: -10rem;
+  }
+  .advantage .container .items .exp .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .exp .item .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .exp .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .exp .item .description p {
+    display: none;
+  }
+  .advantage .container .items .profi {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .profi .item {
+    padding-top: 4rem;
+    margin-right: -10rem;
+  }
+  .advantage .container .items .profi .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .profi .item .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .profi .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .profi .item .description p {
+    display: none;
+  }
+  .advantage .container .items .original {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item {
+    padding-top: 4rem;
+    margin-left: -10rem;
+  }
+  .advantage .container .items .original .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .original .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .original .item .description p {
+    display: none;
+  }
+  .advantage .container .items .all {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item {
+    padding-top: 4rem;
+    margin-right: -10rem;
+  }
+  .advantage .container .items .all .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .all .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .all .item .description p {
+    display: none;
+  }
+  .advantage .container .items .row {
+    justify-content: center;
+  }
+  .advantage .container .items .row .garanty {
+    width: 30%;
+    margin-right: 2rem;
+    display: none;
+  }
+  .advantage .container .items .row .garanty .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .row .garanty .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .row .garanty .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .row .garanty .description p {
+    display: none;
+  }
+  .advantage .container .items .row .day {
+    width: 30%;
+    margin-left: 2rem;
+    display: none;
+  }
+  .advantage .container .items .row .day .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .row .day .icon .image-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .advantage .container .items .row .day .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .row .day .description p {
+    display: none;
+  }
+  .choice .container {
+    max-width: 700px;
+  }
+  .team .container {
+    max-width: 650px;
+  }
+  .team .container .team-title h2 {
+    font-size: 5rem;
+  }
+  .team .container .team-row .arrow-left {
+    width: 8rem;
+    height: 8rem;
+  }
+  .team .container .team-row .team-avatars .item .icon-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .team .container .team-row .team-avatars .item .name {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .team .container .team-row .arrow-right {
+    width: 8rem;
+    height: 8rem;
+  }
+  .reviews .container .reviews-body {
+    height: 100%;
+  }
+  .reviews .container .reviews-body .review .comment p {
+    font-size: 3.5rem;
+  }
+  .discount {
+    background-image: none;
+    right: 0;
+    padding: 0rem;
+    border: 1px solid black;
+  }
+  .discount .container {
+    max-width: 700px;
+    align-items: center;
+  }
+  .discount .container .discount-title {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+  }
+  .discount .container .discount-text {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .discount .container .discount-text p {
+    font-family: "Calibri";
+    font-size: 4rem;
+    color: black;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+  }
+  .discount .container .discount-text p span {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .discount .container .discount-btn {
+    margin: 0 auto;
+  }
+  .footer {
+    border: none;
+  }
+  .footer .container {
+    max-width: 800px;
+    padding: 4rem;
+  }
+  .footer .container .right-section .footer-logo {
+    height: 10rem;
+  }
+  .footer .container .discount-btn {
+    margin: 0 auto 7rem auto;
+  }
+  .footer .container .discount-btn a button {
+    font-size: 5rem;
+    width: 80rem;
+    height: 18rem;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 4rem;
+    transition: 0.3s;
+  }
+  .footer .container .discount-btn a button:hover {
+    cursor: pointer;
+    background-color: #02ff38;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 3.5px;
+  }
+  .wrapper-main {
+    grid-template-rows: minmax(70px, auto) minmax(430px, auto) minmax(770px, auto) minmax(1195px, auto) minmax(350px, auto) minmax(400px, auto) minmax(350px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .header-main .container {
+    max-width: 600px;
+  }
+  .header-main .container .title .title-square {
+    max-width: 500px;
+    padding: 5rem 10rem 9rem 8rem;
+  }
+  .header-main .container .title .title-square h1 {
+    font-size: 5rem;
+    line-height: 9rem;
+  }
+  .header-main .container .title .title-square span {
+    font-size: 2.5rem;
+  }
+  .header-main .container .title .title-square span span {
+    line-height: 1rem;
+  }
+  .header-main .container .title .title-square a .target-btn {
+    width: 60rem;
+    height: 15rem;
+    font-size: 4rem;
+    border-radius: 4rem;
+  }
+  .header-main .container .image {
+    background-size: 30%;
+  }
+  .header-main .container .image .social {
+    margin-left: 7rem;
+  }
+  .header-main .container .image .social .social-item {
+    height: 10rem;
+  }
+  .header-main .container .image .miele {
+    width: 15rem;
+  }
+  .header-main .red-line {
+    height: 20rem;
+  }
+  .header-main .red-line p {
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+    line-height: 6rem;
+  }
+  .header-main .red-line p .white {
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+  }
+  .top-nav {
+    max-width: 600px;
+  }
+  .top-nav .logo .photo {
+    height: 10rem;
+  }
+  .top-nav .nav {
+    display: none;
+  }
+  .top-nav .phone-item {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+  .top-nav .phone-btn {
+    width: 40rem;
+    height: 7rem;
+  }
+  .advantage .container {
+    width: 80%;
+  }
+  .advantage .container h2 {
+    font-size: 5rem;
+    margin: 15rem auto 15rem auto;
+  }
+  .advantage .container h2 span {
+    color: white;
+  }
+  .advantage .container .items {
+    grid-template-rows: minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto);
+    text-align: center;
+  }
+  .advantage .container .items .exp {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .exp .item {
+    padding-top: 4rem;
+    margin-left: -10rem;
+  }
+  .advantage .container .items .exp .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .exp .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .exp .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .exp .item .description p {
+    display: none;
+  }
+  .advantage .container .items .profi {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .profi .item {
+    padding-top: 4rem;
+    margin-right: -10rem;
+  }
+  .advantage .container .items .profi .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .profi .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .profi .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .profi .item .description p {
+    display: none;
+  }
+  .advantage .container .items .original {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item {
+    padding-top: 4rem;
+    margin-left: -10rem;
+  }
+  .advantage .container .items .original .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .original .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .original .item .description p {
+    display: none;
+  }
+  .advantage .container .items .all {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item {
+    padding-top: 4rem;
+    margin-right: -10rem;
+  }
+  .advantage .container .items .all .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .all .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .all .item .description p {
+    display: none;
+  }
+  .choice .choice-title .red-line {
+    margin-bottom: 35rem;
+  }
+  .choice .container {
+    max-width: 80%;
+  }
+  .choice .container a {
+    margin: 2rem 2rem;
+  }
+  .choice .container a .choice-item {
+    width: 60rem;
+  }
+  .choice .container a .choice-item .choice-name {
+    font-size: 4rem;
+  }
+  .choice .container a .choice-item .choice-btn {
+    width: 50rem;
+  }
+  .team .container {
+    max-width: 600px;
+  }
+  .team .container .team-title h2 {
+    font-size: 5rem;
+  }
+  .team .container .team-row .arrow-left {
+    width: 8rem;
+    height: 8rem;
+  }
+  .team .container .team-row .team-avatars .item .icon-container {
+    width: 20rem;
+    height: 20rem;
+  }
+  .team .container .team-row .team-avatars .item .name {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .team .container .team-row .arrow-right {
+    width: 8rem;
+    height: 8rem;
+  }
+  .reviews .container .reviews-body {
+    height: 100%;
+  }
+  .reviews .container .reviews-body .review .comment p {
+    font-size: 3.5rem;
+  }
+  .brands .container {
+    max-width: 600px;
+  }
+  .brands .container .brands-title {
+    margin-bottom: 10rem;
+  }
+  .brands .container .brands-list .row img {
+    height: 50%;
+  }
+  .discount {
+    background-image: none;
+    right: 0;
+    padding: 0rem;
+    border: 1px solid black;
+  }
+  .discount .container {
+    max-width: 700px;
+    align-items: center;
+  }
+  .discount .container .discount-title {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+  }
+  .discount .container .discount-text {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .discount .container .discount-text p {
+    font-family: "Calibri";
+    font-size: 4rem;
+    color: black;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+  }
+  .discount .container .discount-text p span {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .discount .container .discount-btn {
+    margin: 0 auto 7rem auto;
+  }
+  .discount .container .discount-btn a button {
+    font-size: 5rem;
+    width: 80rem;
+    height: 18rem;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 4rem;
+    transition: 0.3s;
+  }
+  .discount .container .discount-btn a button:hover {
+    cursor: pointer;
+    background-color: #02ff38;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+  }
+  .footer {
+    border: none;
+  }
+  .footer .container {
+    max-width: 800px;
+    padding: 4rem;
+  }
+  .footer .container .right-section .footer-logo {
+    height: 10rem;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 3.5px;
+  }
+  .wrapper-main {
+    margin: 0;
+    padding: 0;
+    grid-template-rows: minmax(70px, auto) minmax(430px, auto) minmax(770px, auto) minmax(1795px, auto) minmax(250px, auto) minmax(400px, auto) minmax(350px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .header-main .container .title .title-square {
+    max-width: 500px;
+    padding: 5rem 10rem 9rem 8rem;
+  }
+  .header-main .container .title .title-square h1 {
+    font-size: 5rem;
+    line-height: 9rem;
+  }
+  .header-main .container .title .title-square span {
+    font-size: 2.5rem;
+  }
+  .header-main .container .title .title-square span span {
+    line-height: 1rem;
+  }
+  .header-main .container .title .title-square a .target-btn {
+    width: 60rem;
+    height: 15rem;
+    font-size: 4rem;
+    border-radius: 4rem;
+  }
+  .header-main .container .image {
+    background-size: 150%;
+  }
+  .header-main .container .image .social {
+    margin-left: 7rem;
+  }
+  .header-main .container .image .social .social-item {
+    height: 10rem;
+  }
+  .header-main .container .image .miele {
+    width: 15rem;
+  }
+  .header-main .red-line {
+    height: 10rem;
+  }
+  .header-main .red-line p {
+    display: none;
+  }
+  .top-nav {
+    border: 1px solid black;
+    max-width: 90%;
+  }
+  .top-nav .logo .photo {
+    height: 10rem;
+  }
+  .top-nav .nav {
+    display: none;
+  }
+  .top-nav .phone-item {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+  .top-nav .phone-btn {
+    width: 40rem;
+    height: 7rem;
+  }
+  .advantage {
+    z-index: 2;
+  }
+  .advantage .container {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+  }
+  .advantage .container h2 {
+    font-size: 4rem;
+    padding: 3rem;
+  }
+  .advantage .container h2 span {
+    color: black;
+    text-shadow: none;
+  }
+  .advantage .container .items {
+    grid-template-rows: minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto);
+    text-align: center;
+  }
+  .advantage .container .items .exp .item {
+    padding-top: 4rem;
+    margin-left: -8rem;
+  }
+  .advantage .container .items .exp .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .exp .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .exp .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .exp .item .description p {
+    display: none;
+  }
+  .advantage .container .items .profi .item {
+    padding-top: 4rem;
+    margin-right: -8rem;
+  }
+  .advantage .container .items .profi .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .profi .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .profi .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .profi .item .description p {
+    display: none;
+  }
+  .advantage .container .items .original {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item {
+    padding-top: 4rem;
+    margin-left: -10rem;
+  }
+  .advantage .container .items .original .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .original .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .original .item .description p {
+    display: none;
+  }
+  .advantage .container .items .all {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item {
+    padding-top: 4rem;
+    margin-right: -10rem;
+  }
+  .advantage .container .items .all .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .all .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .all .item .description p {
+    display: none;
+  }
+  .choice .choice-title .red-line {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 25rem;
+  }
+  .choice .container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .choice .container a {
+    margin: 2rem 2rem;
+  }
+  .choice .container a .choice-item {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .choice .container a .choice-item .choice-name {
+    font-size: 4rem;
+  }
+  .choice .container a .choice-item .choice-btn {
+    width: 50rem;
+  }
+  .team .container {
+    max-width: 350px;
+  }
+  .team .container .team-title h2 {
+    font-size: 5rem;
+  }
+  .team .container .team-row .arrow-left {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 25rem;
+  }
+  .team .container .team-row .team-avatars .item .icon-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .team .container .team-row .team-avatars .item .name {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .team .container .team-row .arrow-right {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 25rem;
+  }
+  .reviews .container {
+    max-width: 100%;
+  }
+  .reviews .container .reviews-body {
+    height: 100%;
+    max-width: 350px;
+  }
+  .reviews .container .reviews-body .review .person .stars img {
+    height: 3rem;
+  }
+  .reviews .container .reviews-body .review .comment p {
+    font-size: 3.5rem;
+  }
+  .brands .container {
+    max-width: 350px;
+  }
+  .brands .container .brands-title {
+    margin-bottom: 10rem;
+  }
+  .brands .container .brands-list .row img {
+    height: 30%;
+  }
+  .discount {
+    width: 100%;
+    background-image: none;
+    right: 0;
+    padding: 0rem;
+    border: 1px solid black;
+  }
+  .discount .container {
+    max-width: 350px;
+    align-items: center;
+  }
+  .discount .container .discount-title {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+  }
+  .discount .container .discount-text {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .discount .container .discount-text p {
+    font-family: "Calibri";
+    font-size: 4rem;
+    color: black;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+  }
+  .discount .container .discount-text p span {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .discount .container .discount-btn {
+    margin: 0 auto 7rem auto;
+  }
+  .discount .container .discount-btn a button {
+    font-size: 5rem;
+    width: 80rem;
+    height: 18rem;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 4rem;
+    transition: 0.3s;
+  }
+  .discount .container .discount-btn a button:hover {
+    cursor: pointer;
+    background-color: #02ff38;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+  }
+  .footer {
+    border: none;
+    width: 100%;
+  }
+  .footer .container {
+    max-width: 90%;
+    padding: 4rem;
+  }
+  .footer .container .right-section .footer-logo {
+    height: 10rem;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 3.5px;
+  }
+  .wrapper-main {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: minmax(70px, auto) minmax(430px, auto) minmax(770px, auto) minmax(1795px, auto) minmax(250px, auto) minmax(400px, auto) minmax(350px, auto) minmax(350px, auto) minmax(200px, auto);
+  }
+  .header-main .container .title .title-square {
+    max-width: 400px;
+    padding: 5rem 10rem 9rem 8rem;
+  }
+  .header-main .container .title .title-square h1 {
+    font-size: 5rem;
+    line-height: 9rem;
+  }
+  .header-main .container .title .title-square span {
+    font-size: 2.5rem;
+  }
+  .header-main .container .title .title-square span span {
+    line-height: 1rem;
+  }
+  .header-main .container .title .title-square a .target-btn {
+    width: 60rem;
+    height: 15rem;
+    font-size: 4rem;
+    border-radius: 4rem;
+  }
+  .header-main .container .image {
+    background-size: 150%;
+  }
+  .header-main .container .image .social {
+    margin-left: 7rem;
+  }
+  .header-main .container .image .social .social-item {
+    height: 10rem;
+  }
+  .header-main .container .image .miele {
+    width: 15rem;
+  }
+  .header-main .red-line {
+    height: 10rem;
+  }
+  .header-main .red-line p {
+    display: none;
+  }
+  .top-nav {
+    border: 1px solid black;
+    width: 80%;
+  }
+  .top-nav .logo .photo {
+    height: 10rem;
+  }
+  .top-nav .nav {
+    display: none;
+  }
+  .top-nav .phone-item {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+  .top-nav .phone-btn {
+    width: 40rem;
+    height: 7rem;
+  }
+  .advantage {
+    z-index: 2;
+  }
+  .advantage .container {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+  }
+  .advantage .container h2 {
+    font-size: 4rem;
+    padding: 3rem;
+  }
+  .advantage .container h2 span {
+    color: black;
+    text-shadow: none;
+  }
+  .advantage .container .items {
+    grid-template-rows: minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto) minmax(12rem, auto);
+    text-align: center;
+  }
+  .advantage .container .items .exp .item {
+    padding-top: 4rem;
+    margin-left: -8rem;
+  }
+  .advantage .container .items .exp .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .exp .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .exp .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .exp .item .description p {
+    display: none;
+  }
+  .advantage .container .items .profi .item {
+    padding-top: 4rem;
+    margin-right: -8rem;
+  }
+  .advantage .container .items .profi .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .profi .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .profi .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .profi .item .description p {
+    display: none;
+  }
+  .advantage .container .items .original {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item {
+    padding-top: 4rem;
+    margin-left: -10rem;
+  }
+  .advantage .container .items .original .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .original .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .original .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .original .item .description p {
+    display: none;
+  }
+  .advantage .container .items .all {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item {
+    padding-top: 4rem;
+    margin-right: -10rem;
+  }
+  .advantage .container .items .all .item .icon {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .advantage .container .items .all .item .icon .image-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .advantage .container .items .all .item .icon p {
+    font-size: 4rem;
+  }
+  .advantage .container .items .all .item .description p {
+    display: none;
+  }
+  .choice .choice-title .red-line {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 25rem;
+  }
+  .choice .container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .choice .container a {
+    margin: 2rem 2rem;
+  }
+  .choice .container a .choice-item {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .choice .container a .choice-item .choice-name {
+    font-size: 4rem;
+  }
+  .choice .container a .choice-item .choice-btn {
+    width: 50rem;
+  }
+  .team .container {
+    max-width: 350px;
+  }
+  .team .container .team-title h2 {
+    font-size: 5rem;
+  }
+  .team .container .team-row .arrow-left {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 25rem;
+  }
+  .team .container .team-row .team-avatars .item .icon-container {
+    width: 15rem;
+    height: 15rem;
+  }
+  .team .container .team-row .team-avatars .item .name {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .team .container .team-row .arrow-right {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 25rem;
+  }
+  .reviews .container {
+    max-width: 100%;
+  }
+  .reviews .container .reviews-body {
+    height: 100%;
+    max-width: 350px;
+  }
+  .reviews .container .reviews-body .review .person .stars img {
+    height: 3rem;
+  }
+  .reviews .container .reviews-body .review .comment p {
+    font-size: 3.5rem;
+  }
+  .brands .container {
+    max-width: 350px;
+  }
+  .brands .container .brands-title {
+    margin-bottom: 10rem;
+  }
+  .brands .container .brands-list .row img {
+    height: 30%;
+  }
+  .discount {
+    width: 100%;
+    background-image: none;
+    right: 0;
+    padding: 0rem;
+    border: 1px solid black;
+  }
+  .discount .container {
+    max-width: 350px;
+    align-items: center;
+  }
+  .discount .container .discount-title {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+  }
+  .discount .container .discount-text {
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .discount .container .discount-text p {
+    font-family: "Calibri";
+    font-size: 4rem;
+    color: black;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+  }
+  .discount .container .discount-text p span {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  .discount .container .discount-btn {
+    margin: 0 auto 7rem auto;
+  }
+  .discount .container .discount-btn a button {
+    font-size: 5rem;
+    width: 80rem;
+    height: 18rem;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 4rem;
+    transition: 0.3s;
+  }
+  .discount .container .discount-btn a button:hover {
+    cursor: pointer;
+    background-color: #02ff38;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 1px black;
+  }
+  .footer {
+    border: none;
+    width: 100%;
+  }
+  .footer .container {
+    max-width: 90%;
+    padding: 4rem;
+  }
+  .footer .container .right-section .footer-logo {
+    height: 10rem;
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */
