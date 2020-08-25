@@ -1,0 +1,116 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+
+<div class="wrapper-gaz">
+
+    {% block header %}
+
+        {% include 'main/headers/header_gas_stoves.html' %}
+
+    {% endblock %}
+
+
+    {% block content %}
+
+    <!-- TROUBLES -->
+    <section class="troubles-gaz">
+        <div class="container">
+            <div class="title-top">
+                <h2>итак, всё-таки она сломалась...</h2>
+            </div>
+            <div class="troubles-items">
+                <div class="trouble-image wow fadeInLeft">
+                    <img src="{% static 'img/troubles/gaz-troubles.png' %}" alt="trouble-image">
+                </div>
+                <div class="troubles-list wow fadeInRight">
+                    <div class="list">
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">У плиты не работает духовка</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не работает электроподжиг</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Тугие краны</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Слабое пламя горелки</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не работает система «газ-контроль»</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Неисправен жиклер</span>
+                    </div>
+                </div>
+            </div>
+            <div class="title-bottom wow fadeInUp">
+                <h2><span>не отчаивайтесь...</span> мы вам поможем!</h2>
+                <img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka-green">
+            </div>
+        </div>
+    </section>
+    <!-- TRABLES end -->
+
+
+    <!-- CHOICES -->
+
+    {% include 'main/components/choices.html' %}
+
+    <!-- CHOICES end -->
+
+
+    <!-- PRICE-LIST -->
+    <section class="price">
+        <div class="container">
+            <div class="price-title">
+                <h2>наш прайс на ремонт газовых плит и духовых шкафов всех марок</h2>
+            </div>
+            <div class="price-content">
+                <table class="table">
+                    <tr>
+                        <th class="first_th">неисправность газовой плиты</th>
+                        <th class="second_th">цена ремонта</th>
+                    </tr>
+                    <tr><td>Выезд мастера</td><td>Бесплатно</td></tr>
+                    <tr><td>Диагностика</td><td>Бесплатно</td></tr>
+                    <tr><td>Нет поджига (электроподжига)</td><td>от 1000 руб</td></tr>
+                    <tr><td>Не держит пламя (пламя гаснет)</td><td>от 1000 рублей</td></tr>
+                    <tr>
+                        <th class="first_th">НЕИСПРАВНОСТЬ ДУХОВОГО ШКАФА И ВАРОЧНОЙ ПОВЕРХНОСТИ</th>
+                        <th class="second_th">цена ремонта</th>
+                    </tr>
+                    <tr><td>Не включается</td><td>от 500 рублей</td></tr>
+                    <tr><td>Нет нагрева</td><td>от 1500 рублей</td></tr>
+                    <tr><td>Нет освещения</td><td>от 500 рублей</td></tr>
+                    <tr><td>Не открывается дверь</td><td>1000 рублей</td></tr>
+                    <tr><td>Замена стекла</td><td>Цена зависит от типа прибора</td></tr>
+                </table>
+                <p>* Указана стоимость ремонта без учета стоимости запчасти</p>
+            </div>
+        </div>
+    </section>
+    <!-- PRICE-LIST end -->
+
+
+    <!-- REVIEWS -->
+
+    {% include 'main/components/reviews.html' %}
+
+    <!-- REVIEWS end -->
+
+
+    <!-- BRANDS -->
+
+    {% include 'main/components/brands.html' %}
+
+    <!-- BRANDS end -->
+
+
+    <!-- DISCOUNT -->
+        
+    {% include 'main/components/discount.html' %}
+
+    <!-- DISCOUNT end -->
+
+    {% endblock %}
+
+
+    {% block footer %}
+
+        {% include 'main/components/footer.html' %}
+
+    {% endblock %}
+
+
+</div>

@@ -1,0 +1,94 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+<div>
+
+    {% block header %}
+
+        {% include 'main/components/top_nav.html' %}
+
+    {% endblock %}
+
+
+    {% block content %}
+
+        <!-- ABOUT-CONTENT -->
+
+        <section class="about">
+            <div class="about__red-line">
+                <h2><span class="black">о компании </span>быт мастер дон</h2>
+            </div>
+            <div class="container">
+                <div class="about-top-slider">
+                    <div class="top-slider">
+                        <!-- здесь слайдер -->
+                    </div>
+                    <div class="about-slider__info">
+                        <div class="info">
+                            <p>Сервисный центр «Быт Мастер» специализируется на ремонте бытовой техники. Для нас важно, чтобы клиенты по достоинству оценили работу мастеров, поэтому выполняем мы ее качественно и быстро.</p>
+                        </div>
+                        <div class="social">
+                            <p>Мы в социальных сетях</p>
+                            <div class="social__items">
+                                <a href="https://vk.com/public174262653"><img src="{% static 'img/icons/social/icons8-vkontakte-48.png' %}" alt="vk"></a>
+                                <a href="#"><img src="{% static 'img/icons/social/icons8-odnoklassniki-48.png' %}" alt="ok"></a>
+                                <a href="#"><img src="{% static 'img/icons/social/icons8-instagram-48.png' %}" alt="insta"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT-CONTENT end -->
+
+
+
+
+        <!-- ADVANTAGE -->
+
+        {% include 'main/components/advantage.html' %}
+
+        <!-- ADVANTAGE end -->
+
+
+
+
+        <!-- SERTIFICATS -->
+                
+        <section class="sertificats">
+            <div class="sertificats__red-line">
+                <h2><span class="black">наши </span>сертификаты</h2>
+            </div>
+            <div class="container">
+                <!-- здесь фотогалерея сертификатов -->
+            </div>
+        </section>
+
+        <!-- SERTIFICATS end -->
+
+
+
+        <!-- TEAM -->
+
+        {% include 'main/components/team.html' %}
+
+        <!-- TEAM end -->
+
+
+        <!-- DISCOUNT -->
+
+        {% include 'main/components/discount.html' %}
+
+        <!-- DISCOUNT -->
+
+    {% endblock %}
+
+
+    {% block footer %}
+
+        {% include 'main/components/footer.html' %}
+
+    {% endblock %}
+
+</div>

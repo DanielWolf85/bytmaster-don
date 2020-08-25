@@ -20,17 +20,18 @@
 				<ul class="sub-menu">
 					<li><a href="{% url 'main:refrigerators_view' %}">ремонт холодильников</a></li>
 					<li><a href="{% url 'main:washing_machines_view' %}">ремонт стиральных машин</a></li>
-					<li><a href="#">ремонт посудомоечных машин</a></li>
-					<li><a href="#">ремонт кофемашин</a></li>
-					<li><a href="#">ремонт газовых плит</a></li>
-					<li><a href="#">ремонт пылесосов</a></li>
-					<li><a href="#">установка и подключение</a></li>
-					<li><a href="#">чистка кондиционеров</a></li>
+					<li><a href="{% url 'main:dishwashers_view' %}">ремонт посудомоечных машин</a></li>
+					<li><a href="{% url 'main:coffee_machines_view' %}">ремонт кофемашин</a></li>
+					<li><a href="{% url 'main:gas_stoves_view' %}">ремонт газовых плит</a></li>
+					<li><a href="{% url 'main:hoovers_view' %}">ремонт пылесосов</a></li>
+					<li><a href="{% url 'main:installation_view' %}">установка и подключение</a></li>
+					<li><a href="{% url 'main:cleaning_of_air_view' %}">чистка кондиционеров</a></li>
 				</ul>
 			</div>
-			<div><a class="nav-item" href="#">Контакты</a></div>
-			<div><a class="nav-item" href="#">Цены</a></div>
-			<div><a class="nav-item" href="#">О нас</a></div>	
+			<div><a class="nav-item" href="{% url 'main:discounts_view' %}">Скидки</a></div>
+			<div><a class="nav-item" href="{% url 'main:faq_view' %}">faq</a></div>
+			<div><a class="nav-item" href="{% url 'main:contacts_view' %}">Контакты</a></div>
+			<div><a class="nav-item" href="{% url 'main:about_view' %}">О нас</a></div>	
         </nav>
         
 		<div class="phone">

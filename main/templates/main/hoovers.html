@@ -1,0 +1,109 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+
+<div class="wrapper-pyl">
+
+    {% block header %}
+
+        {% include 'main/headers/header_hoovers.html' %}
+
+    {% endblock %}
+
+
+    {% block content %}
+
+    <!-- TROUBLES -->
+    <section class="troubles-pyl">
+        <div class="container">
+            <div class="title-top">
+                <h2>итак, всё-таки он сломался...</h2>
+            </div>
+            <div class="troubles-items">
+                <div class="trouble-image wow fadeInLeft">
+                    <img src="{% static 'img/troubles/pyl-trouble.png' %}" alt="trouble-image">
+                </div>
+                <div class="troubles-list wow fadeInRight">
+                    <div class="list">
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Пылесос не включается</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Плохая сила втягивания</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не регулируются обороты</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Пылесос издает посторонний запах</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Пылесос гудит</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не сматывает шнур</span>
+                    </div>
+                </div>
+            </div>
+            <div class="title-bottom wow fadeInUp">
+                <h2><span>не отчаивайтесь...</span> мы вам поможем!</h2>
+                <img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka-green">
+            </div>
+        </div>
+    </section>
+    <!-- TRABLES end -->
+
+
+    <!-- CHOICES -->
+
+    {% include 'main/components/choices.html' %}
+
+    <!-- CHOICES end -->
+
+
+    <!-- PRICE-LIST -->
+    <section class="price">
+        <div class="container">
+            <div class="price-title">
+                <h2>наш прайс на ремонт пылесосов всех марок</h2>
+            </div>
+            <div class="price-content">
+                <table class="table">
+                    <tr>
+                        <th class="first_th">неисправность пылесоса</th>
+                        <th class="second_th">цена ремонта</th>
+                    </tr>
+                    <tr><td>Выезд мастера</td><td>Бесплатно</td></tr>
+                    <tr><td>Диагностика</td><td>Бесплатно</td></tr>
+                    <tr><td>Не включается</td><td>от 500 руб</td></tr>
+                    <tr><td>Нет тяги</td><td>от 700 рублей</td></tr>
+                    <tr><td>Замена двигателя</td><td>от 1500 рублей</td></tr>
+                    <tr><td>Не сматывает шнур</td><td>от 700 рублей</td></tr>
+                </table>
+                <p>* Указана стоимость ремонта без учета стоимости запчасти</p>
+            </div>
+        </div>
+    </section>
+    <!-- PRICE-LIST end -->
+
+
+    <!-- REVIEWS -->
+
+    {% include 'main/components/reviews.html' %}
+
+    <!-- REVIEWS end -->
+
+
+    <!-- BRANDS -->
+
+    {% include 'main/components/brands.html' %}
+
+    <!-- BRANDS end -->
+
+
+    <!-- DISCOUNT -->
+        
+    {% include 'main/components/discount.html' %}
+
+    <!-- DISCOUNT end -->
+
+    {% endblock %}
+
+
+
+    {% block footer %}
+
+        {% include 'main/components/footer.html' %}
+
+    {% endblock %}
+
+</div>

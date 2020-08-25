@@ -1,0 +1,112 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+
+<div class="wrapper-cofee">
+
+    <!-- HEADER -->
+
+    {% block header %}
+
+        {% include 'main/headers/header_coffee_machines.html' %}
+
+    {% endblock %}
+
+    <!-- HEADER  end -->
+
+    {% block content %}
+
+    <!-- TROUBLES -->
+    <section class="troubles-cofee">
+        <div class="container">
+            <div class="title-top">
+                <h2>итак, всё-таки она сломалась...</h2>
+            </div>
+            <div class="troubles-items">
+                <div class="trouble-image wow fadeInLeft">
+                    <img src="{% static 'img/troubles/cofee-trouble.png' %}" alt="cofee-trouble">
+                </div>
+                <div class="troubles-list wow fadeInRight">
+                    <div class="list">
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Кофемашина издает сильный треск</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не включается процесс нагревания</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">При нажатии кнопки напиток не льется</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Отсутствуют световые индикаторы</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Наблюдается утечка воды</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Делает слишком холодный/горячий кофе</span>
+                    </div>
+                </div>
+            </div>
+            <div class="title-bottom wow fadeInUp">
+                <h2><span>не отчаивайтесь...</span> мы вам поможем!</h2>
+                <img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka-green">
+            </div>
+        </div>
+    </section>
+    <!-- TRABLES end -->
+
+
+    <!-- CHOICES -->
+
+    {% include 'main/components/choices.html' %}
+
+    <!-- CHOICES end -->
+
+
+    <!-- PRICE-LIST -->
+    <section class="price">
+        <div class="container">
+            <div class="price-title">
+                <h2>наш прайс на ремонт кофемашин машин всех марок</h2>
+            </div>
+            <div class="price-content">
+                <table class="table">
+                    <tr>
+                        <th class="first_th">неисправность кофемашины</th>
+                        <th class="second_th">цена ремонта</th>
+                    </tr>
+                    <tr><td>Выезд мастера</td><td>Бесплатно</td></tr>
+                    <tr><td>Диагностика</td><td>Бесплатно</td></tr>
+                    <tr><td>Не включается</td><td>от 500 руб</td></tr>
+                    <tr><td>Нет подачи кофе</td><td>от 1000 рублей</td></tr>
+                    <tr><td>Нет подачи молока</td><td>от 1000 рублей</td></tr>
+                    <tr><td>Напиток недостаточно горячий</td><td>от 1000 рублей</td></tr>
+                    <tr><td>Течет</td><td>от 1000 рублей</td></tr>
+                </table>
+                <p>* Указана стоимость ремонта без учета стоимости запчасти</p>
+            </div>
+        </div>
+    </section>
+    <!-- PRICE-LIST end -->
+
+
+    <!-- REVIEWS -->
+
+    {% include 'main/components/reviews.html' %}
+
+    <!-- REVIEWS end -->
+
+
+    <!-- BRANDS -->
+
+    {% include 'main/components/brands.html' %}
+
+    <!-- BRANDS end -->
+
+
+    <!-- DISCOUNT -->
+        
+    {% include 'main/components/discount.html' %}
+
+    <!-- DISCOUNT end -->
+
+    {% endblock %}
+
+
+    {% block footer %}
+
+        {% include 'main/components/footer.html' %}
+
+    {% endblock %}
+
+</div>

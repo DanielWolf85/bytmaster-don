@@ -1,71 +1,64 @@
 {% load static %}
 
-
-<!-- WARNING FOR IE -->
-
-<!-- WARNING FOR IE -->
-
-
-<div class="wrapper-holod">
 	
-	<!-- NAV -->
-	
-	{% include 'main/components/top_nav.html' %}
+<!-- NAV -->
 
-	<!-- NAV end -->
+{% include 'main/components/top_nav.html' %}
+
+<!-- NAV end -->
 
 
-	<!-- HEADER -->
-	
-	<header class="header-holod">
-		<div class="container">
+<!-- HEADER -->
+
+<header class="header-holod">
+	<div class="container">
+		
+		<div class="title">
+			<div class="social">
+				<a href="https://vk.com/public174262653" target="_blank">
+					<img class="social-item" src="{% static 'img/icons/social/icons8-vkontakte-48.png' %}" alt="vk">
+				</a>
+				<a href="https://ok.ru/group/61566536056877" target="_blank">
+					<img class="social-item" src="{% static 'img/icons/social/icons8-odnoklassniki-48.png' %}" alt="ok">
+				</a>
+				<a href="https://www.instagram.com/bytmaster_don/" target="_blank">
+					<img class="social-item" src="{% static 'img/icons/social/icons8-instagram-48.png' %}" alt="insta">
+				</a>
+			</div>
 			
-			<div class="title">
-				<div class="social">
-					<a href="https://vk.com/public174262653" target="_blank">
-						<img class="social-item" src="{% static 'img/icons/social/icons8-vkontakte-48.png' %}" alt="vk">
-					</a>
-					<a href="https://ok.ru/group/61566536056877" target="_blank">
-						<img class="social-item" src="{% static 'img/icons/social/icons8-odnoklassniki-48.png' %}" alt="ok">
-					</a>
-					<a href="https://www.instagram.com/bytmaster_don/" target="_blank">
-						<img class="social-item" src="{% static 'img/icons/social/icons8-instagram-48.png' %}" alt="insta">
-					</a>
-				</div>
-				
-				<div class="title-square">
-					<h1>ремонт холодильников</h1>
-					<span>							
-						<span class="item">
-							<img src="{% static 'img/icons/symbols/galka-red.png' %}" alt="galka">
-							на дому
-						</span>
-						<span class="item">
-							<img src="{% static 'img/icons/symbols/galka-red.png' %}" alt="galka">
-							быстро и недорого
-						</span>
-						<span class="item">
-							<img src="{% static 'img/icons/symbols/galka-red.png' %}" alt="galka">
-							все модели
-						</span>							
+			<div class="title-square">
+				<h1>ремонт холодильников</h1>
+				<span>							
+					<span class="item">
+						<img src="{% static 'img/icons/symbols/galka-red.png' %}" alt="galka">
+						на дому
 					</span>
-					
-				</div>
-				<div class="target">
-					<a>
-						<button class="target-btn" onclick="zayavka_on();">
-							оформить заявку
-						</button>
-					</a>
-				</div>
-				
+					<span class="item">
+						<img src="{% static 'img/icons/symbols/galka-red.png' %}" alt="galka">
+						быстро и недорого
+					</span>
+					<span class="item">
+						<img src="{% static 'img/icons/symbols/galka-red.png' %}" alt="galka">
+						все модели
+					</span>							
+				</span>
 				
 			</div>
+			<div class="target">
+				<a>
+					<button class="target-btn" onclick="zayavka_on();">
+						оформить заявку
+					</button>
+				</a>
+			</div>
+			
+			
 		</div>
-		<div class="red-line">
-			<p><span class="white"></span></p>
-		</div>	
-	</header>
+	</div>
+	<div class="red-line">
+		<p><span class="white"></span></p>
+	</div>	
+</header>
 
-	
-	<!-- HEADER end -->
+
+<!-- HEADER end -->

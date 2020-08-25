@@ -1,0 +1,95 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+<div>
+
+    {% block header %}
+
+        {% include 'main/headers/header_cleaning_of_air.html' %}
+
+    {% endblock %}
+
+
+    {% block content %}
+
+
+        <!-- ADVANTAGE -->
+
+        {% include 'main/components/advantage.html' %}
+
+        <!-- ADVANTAGE end -->
+
+
+        <!-- CHOICES -->
+
+        {% include 'main/components/choices.html' %}
+
+        <!-- CHOICES end -->
+
+
+        <!-- PRICE-LIST -->
+
+        <section class="price">
+
+            <div class="container">
+
+                <div class="price-title">
+
+                    <h2>НАШ ПРАЙС НА ЧИСТКУ КОНДИЦИОНЕРОВ И СПЛИТ-СИСТЕМ</h2>
+
+                </div>
+
+                <div class="price-content">
+
+                    <table class="table">
+
+                        <tr>
+
+                            <th class="first_th">НАИМЕНОВАНИЕ РАБОТ</th>
+
+                            <th class="second_th">ЦЕНА</th>
+
+                        </tr>
+
+                        <tr><td>Чистка кондиционеров, сплит-систем*</td><td>от 1200 руб</td></tr>
+
+                        <tr><td>Заправка фреоном** (100 грамм)</td><td>300 руб</td></tr>
+
+                    </table>
+
+                    <p>* Цена зависит от мощности системы. До 12 стоимость чистки 1200 рублей.</p>
+                    <p>** Количество добавляемого фреона мастер определяет по весу. Цена фреона зависит от его марки.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PRICE-LIST end -->
+
+
+        <!-- REVIEWS -->
+
+        {% include 'main/components/reviews.html' %}
+
+        <!-- REVIEWS end -->
+
+
+        <!-- DISCOUNT -->
+
+        {% include 'main/components/discount.html' %}
+
+        <!-- DISCOUNT end -->
+
+    {% endblock %}
+
+
+    {% block footer %}
+
+        {% include 'main/components/footer.html' %}
+
+    {% endblock %}
+
+
+</div>

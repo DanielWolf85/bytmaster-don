@@ -1,0 +1,144 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+<div>
+
+    {% block header %}
+
+        {% include 'main/headers/header_installation.html' %}
+
+    {% endblock %}
+
+
+    {% block content %}
+
+        <!-- ADVANTAGE -->
+
+        {% include 'main/components/advantage.html' %}
+
+        <!-- ADVANTAGE end -->
+
+
+        <!-- INJECT -->
+
+        <section class="inject">
+            <div class="container">
+                <div class="title-top">
+                    <h2>быстрое подключение любой техники всех марок</h2>
+                </div>
+
+                <div class="inject-items">
+                    <div class="inject-image wow fadeInLeft">
+                        <img src="{% static 'img/ustanovka/igor.jpg' %}" alt="wash-trouble">
+                    </div>
+
+                    <div class="inject-list wow fadeInRight">
+
+                        <div class="list">
+
+                            <span><img src="{% static 'img/ustanovka/icon-ul.png' %}" alt="cross">Стиральная машина</span>
+                            <span><img src="{% static 'img/ustanovka/icon-ul.png' %}" alt="cross">Холодильник</span>
+                            <span><img src="{% static 'img/ustanovka/icon-ul.png' %}" alt="cross">Варочная панель</span>
+                            <span><img src="{% static 'img/ustanovka/icon-ul.png' %}" alt="cross">Духовой шкаф</span>
+                            <span><img src="{% static 'img/ustanovka/icon-ul.png' %}" alt="cross">Посудомоечная машина</span>
+                            <span><img src="{% static 'img/ustanovka/icon-ul.png' %}" alt="cross">Водонагреватель</span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title-bottom wow fadeInUp">
+                    <h2><span>быстро </span>и безопасно!</h2>
+                    <img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka-green">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- INJECT end -->
+
+
+        <!-- CHOICE -->
+
+        {% include 'main/components/choices.html' %}
+
+        <!-- CHOICE end -->
+
+
+
+        <!-- PRICE-LIST -->
+        <section class="price">
+
+            <div class="container">
+
+                <div class="price-title">
+                    <h2>НАШ ПРАЙС НА УСТАНОВКУ И ПОДКЛЮЧЕНИЕ БЫТОВОЙ ТЕХНИКИ</h2>
+                </div>
+
+                <div class="price-content">
+                    <table class="table">
+                        <tr>
+                            <th class="first_th">ВИД УСТАНОВКИ</th>
+                            <th class="second_th">ЦЕНА УСТАНОВКИ</th>
+                        </tr>
+
+                        <tr><td>Выезд мастера</td><td>Бесплатно</td></tr>
+
+                        <tr><td>Установка и подключение стиральной машины</td><td>от 1000 руб</td></tr>
+
+                        <tr><td>Установка и подключение холодильника</td><td>от 1000 руб</td></tr>
+
+                        <tr><td>Установка и подключение варочной панели</td><td>от 1000 руб</td></tr>
+
+                        <tr><td>Установка и подключение газовой плиты</td><td>от 1000 руб</td></tr>
+
+                        <tr><td>Установка и подключение электроплиты</td><td>от 1000 руб</td></tr>
+
+                        <tr><td>Установка и подключение духового шкафа</td><td>от 1000 руб</td></tr>
+
+                        <tr><td>Установка и подключение посудомоечной машины</td><td>от 1000 руб</td></tr>
+
+                        <tr><td>Установка и подключение водонагревателя</td><td>от 1000 руб</td></tr>
+
+                        <tr><td>Установка и подключение встраиваемой техники</td><td>от 1000 руб</td></tr>
+
+                    </table>
+
+                    <p>* Указана стоимость установки без учета расходных материалов</p>
+                    <p>** Цена зависит от сложности работ.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PRICE-LIST end -->
+
+
+        <!-- REVIEWS -->
+
+        {% include 'main/components/reviews.html' %}
+
+        <!-- REVIEWS end -->
+
+
+
+        <!-- DISCOUNT -->
+
+        {% include 'main/components/discount.html' %}
+
+        <!-- DISCOUNT end -->
+
+    {% endblock %}
+
+
+    {% block footer %}
+
+        {% include 'main/components/footer.html' %}
+
+    {% endblock %}
+
+
+</div>

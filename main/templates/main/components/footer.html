@@ -1,56 +1,56 @@
 {% load static %}
 		
-	<!-- FOOTER -->
-	
-	<section class="footer border-line">
-		<div class="container">
-			<div class="left-section">
-				<div class="up">
-					<a href="#">
-						<span class="footer-tel">+7 (863) 309-00-03</span>
-					</a>
-					<span class="footer-time">Ежедневно с 9:00 до 20:00 ч.</span>
-				</div>
-				<div class="down">
-					<span class="footer-adress">г. Ростов-на-Дону, ул. Лелюшенко 1</span>
-					<div class="footer-social">
-						<div class="social">
-							<a href="https://vk.com/public174262653" target="_blank">
-								<img class="social-item" src="{% static 'img/icons/social/icons8-vkontakte-48.png' %}" alt="vk">
-							</a>
-							<a href="https://ok.ru/group/61566536056877" target="_blank">
-								<img class="social-item" src="{% static 'img/icons/social/icons8-odnoklassniki-48.png' %}" alt="ok">
-							</a>
-							<a href="https://www.instagram.com/bytmaster_don/" target="_blank">
-								<img class="social-item" src="{% static 'img/icons/social/icons8-instagram-48.png' %}" alt="insta">
-							</a>
-						</div>
+<!-- FOOTER -->
+
+<section class="footer border-line">
+	<div class="container">
+		<div class="left-section">
+			<div class="up">
+				<a href="#">
+					<span class="footer-tel">+7 (863) 309-00-03</span>
+				</a>
+				<span class="footer-time">Ежедневно с 9:00 до 20:00 ч.</span>
+			</div>
+			<div class="down">
+				<span class="footer-adress">г. Ростов-на-Дону, ул. Лелюшенко 1</span>
+				<div class="footer-social">
+					<div class="social">
+						<a href="https://vk.com/public174262653" target="_blank">
+							<img class="social-item" src="{% static 'img/icons/social/icons8-vkontakte-48.png' %}" alt="vk">
+						</a>
+						<a href="https://ok.ru/group/61566536056877" target="_blank">
+							<img class="social-item" src="{% static 'img/icons/social/icons8-odnoklassniki-48.png' %}" alt="ok">
+						</a>
+						<a href="https://www.instagram.com/bytmaster_don/" target="_blank">
+							<img class="social-item" src="{% static 'img/icons/social/icons8-instagram-48.png' %}" alt="insta">
+						</a>
 					</div>
 				</div>
 			</div>
-			<div class="center-section">
-				<nav class="footer-nav">
-					<a href="{% url 'main:main_view' %}"><span class="item">главная</span></a>
-					<a href="#"><span class="item">контакты</span></a>
-					<a href="#"><span class="item">цены</span></a>
-					<a href="#"><span class="item">о нас</span></a>
-				</nav>
+		</div>
+		<div class="center-section">
+			<nav class="footer-nav">
+				<a href="{% url 'main:main_view' %}"><span class="item">главная</span></a>
+				<a href="{% url 'main:discounts_view' %}"><span class="item">скидки</span></a>
+				<a href="{% url 'main:faq_view' %}"><span class="item">faq</span></a>
+				<a href="{% url 'main:contacts_view' %}"><span class="item">контакты</span></a>
+				<a href="{% url 'main:about_view' %}"><span class="item">о нас</span></a>
+			</nav>
+		</div>
+		<div class="right-section">
+			<div class="footer-logo">
+				<img src="{% static 'img/logos/logo-bottom-min2@1X.png' %}" alt="footer-logo">
 			</div>
-			<div class="right-section">
-				<div class="footer-logo">
-					<img src="{% static 'img/logos/logo-bottom-min2@1X.png' %}" alt="footer-logo">
-				</div>
-				<div class="footer-desc">
-					<p>Сервисный центр «БытМастер»</p>
-					<p>Вся информация на сайте носит справочный характер и не является публичной офертой, определяемой статьей 437 ГК РФ.</p>
-				</div>
-				<div class="footer-info">
-					<span>ООО «БытМастер», 2016-2020 ©</span>
-				</div>
+			<div class="footer-desc">
+				<p>Сервисный центр «БытМастер»</p>
+				<p>Вся информация на сайте носит справочный характер и не является публичной офертой, определяемой статьей 437 ГК РФ.</p>
+			</div>
+			<div class="footer-info">
+				<span>ООО «БытМастер», 2016-2020 ©</span>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<!-- FOOTER end -->
-		
-</div>
+<!-- FOOTER end -->
+	

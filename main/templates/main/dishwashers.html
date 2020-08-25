@@ -2,38 +2,38 @@
 {% load static %}
 
 
-<div class="wrapper-wash">
+<div class="wrapper-posud">
 
     <!-- HEADER -->
 
     {% block header %}
 
-        {% include 'main/headers/header_washing_machines.html' %}
+        {% include 'main/headers/header_dishwashers.html' %}
 
     {% endblock %}
 
-    <!-- HEADER end -->
+    <!-- HEADER  end -->
 
     {% block content %}
 
     <!-- TROUBLES -->
-    <section class="troubles-wash">
+    <section class="troubles-posud">
         <div class="container">
             <div class="title-top">
                 <h2>итак, всё-таки она сломалась...</h2>
             </div>
             <div class="troubles-items">
                 <div class="trouble-image wow fadeInLeft">
-                    <img src="{% static 'img/troubles/wash-trouble.png' %}" alt="wash-trouble">
+                    <img src="{% static 'img/troubles/posud-trouble.png' %}" alt="posud-trouble">
                 </div>
                 <div class="troubles-list wow fadeInRight">
                     <div class="list">
-                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Машинка не включается</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Машинка бъется током</span>
                         <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не нагревает воду</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не запускается процесс мытья посуды</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Вода переливается</span>
+                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Перегревает/недогревает воду</span>
                         <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не сливает воду</span>
-                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не набирает воду</span>
-                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не отжимает белье</span>
-                        <span><img src="{% static 'img/icons/symbols/cross.png' %}" alt="cross">Не открывается дверца</span>
                     </div>
                 </div>
             </div>
@@ -57,30 +57,22 @@
     <section class="price">
         <div class="container">
             <div class="price-title">
-                <h2>наш прайс на ремонт стиральных машин всех марок</h2>
+                <h2>наш прайс на ремонт посудомоечных машин всех марок</h2>
             </div>
             <div class="price-content">
                 <table class="table">
                     <tr>
-                        <th class="first_th">неисправность стиральной машины</th>
+                        <th class="first_th">неисправность посудомоечной машины</th>
                         <th class="second_th">цена ремонта</th>
                     </tr>
                     <tr><td>Выезд мастера</td><td>Бесплатно</td></tr>
                     <tr><td>Диагностика</td><td>Бесплатно</td></tr>
-                    <tr><td>Замена заливного шланга</td><td>от 500 руб</td></tr>
-                    <tr><td>Замена сетевого шнура</td><td>от 500 руб</td></tr>
-                    <tr><td>Устранение засора</td><td>от 700 руб</td></tr>
-                    <tr><td>Замена клапана выбора воды</td><td>от 1000 руб</td></tr>
-                    <tr><td>Замена ремня привода барабана</td><td>от 1000 руб</td></tr>
-                    <tr><td>Замена датчика нагрева</td><td>от 1000 руб</td></tr>
-                    <tr><td>Замена манжеты люка</td><td>от 1000 руб</td></tr>
-                    <tr><td>Замена блокировки люка</td><td>от 1000 руб</td></tr>
-                    <tr><td>Замена ТЭН</td><td>от 2000 руб</td></tr>
-                    <tr><td>Замена мотора</td><td>от 2000 руб</td></tr>
-                    <tr><td>Замена насоса</td><td>от 2000 руб</td></tr>
-                    <tr><td>Ремонт электроники</td><td>от 2000 руб</td></tr>
-                    <tr><td>Замена подшипников</td><td>от 3000 руб</td></tr>
-                    <tr><td>Ремонт барабана</td><td>от 3500 руб</td></tr>
+                    <tr><td>Не включается</td><td>от 500 руб</td></tr>
+                    <tr><td>Плохо моет</td><td>от 700 рублей</td></tr>
+                    <tr><td>Не сушит</td><td>от 1500 рублей</td></tr>
+                    <tr><td>Протекает</td><td>от 1000 рублей</td></tr>
+                    <tr><td>Сбой программ</td><td>зависит от диагностики</td></tr>
+                    <tr><td>Демонтаж/Монтаж</td><td>от 500 рублей</td></tr>
                 </table>
                 <p>* Указана стоимость ремонта без учета стоимости запчасти</p>
             </div>
@@ -108,7 +100,7 @@
     {% include 'main/components/discount.html' %}
 
     <!-- DISCOUNT end -->
-
+        
     {% endblock %}
 
 

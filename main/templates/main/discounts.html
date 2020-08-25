@@ -1,0 +1,74 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+<div>
+
+    {% block header %}
+
+        <!-- HEADER -->
+                
+        {% include 'main/components/top_nav.html' %}
+
+        <div class="discounts-page__header"></div>
+
+        <!-- HEADER end -->
+
+    {% endblock %}
+
+
+
+    {% block content %}
+
+        <!-- DISCOUNTS-PAGE -->
+
+        <section class="discounts-page">
+            <div class="discounts-page__red-line">
+                <h2><span class="black">наши</span> акции и скидки</h2>
+            </div>
+            <div class="container">
+                <div class="discounts-page__item">
+                    <div class="discounts-page__image-container">
+                        <img src="{% static 'img/discounts-page/skidki.jpg' %}" alt="discounts">
+                    </div>
+                    <div class="discounts-page__desc">
+                        <h3 class="title">скидка <span>10%</span> при заказе услуг на сайте</h3>
+                        <p class="desc">Скидка на все виды ремонта -10% по промокоду "Онлайн". Укажите промокод при заполнении заявки на сайте или озвучьте его по телефону.</p>
+                    </div>
+                </div>
+                
+                <div class="discounts-page__item">
+                    <div class="discounts-page__image-container">
+                        <img src="{% static 'img/discounts-page/skidki-pensioneram.jpg' %}" alt="old_people">
+                    </div>
+                    <div class="discounts-page__desc">
+                        <h3 class="title">скидка <span>10%</span> пенсионерам</h3>
+                        <p class="desc">Мы рады предложить скидку на все наши услуги для пенсионеров. При предоставлении соответствующего документа на всю стоимость работ гарантируется скидка 10%.</p>
+                    </div>
+                </div>
+                
+                <div class="discounts-page__item">
+                    <div class="discounts-page__image-container">
+                        <img src="{% static 'img/discounts-page/slidki-decabr.jpg' %}" alt="winter">
+                    </div>
+                    <div class="discounts-page__desc">
+                        <h3 class="title">скидка <span>10%</span> весь декабрь и январь</h3>
+                        <p class="desc">Весь декабрь и январь скидка на все виды ремонта -10% по промокоду "Новый Год". Укажите промокод при заполнении заявки на сайте или озвучьте его по телефону.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- DISCOUNTS-PAGE end -->
+
+    {% endblock %}
+
+
+    {% block footer %}
+
+        {% include 'main/components/footer.html' %}
+
+    {% endblock %}
+
+
+</div>

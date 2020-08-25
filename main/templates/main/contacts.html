@@ -1,0 +1,70 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+<div>
+
+    {% block header %}
+
+        <!-- HEADER -->
+        
+        {% include 'main/components/top_nav.html' %}
+
+        <div class="contacts__header"></div>
+
+        <!-- HEADER end -->
+
+    {% endblock %}
+
+
+    {% block content %}
+
+        <!-- CONTACTS -->
+
+        <section class="contacts">
+            <div class="contacts__red-line">
+                <h2><span class="black">наши</span> контакты</h2>
+            </div>
+            <div class="container">
+                <div class="contacts__content">
+                    <div class="contacts-title">
+                        <h3>
+                            Вы можете задать любые вопросы или связаться с нами для вызова мастера. Для этого достаточно воспользоваться любым удобным для вас способом.
+                        </h3>
+                    </div>
+                    <div class="contacts-info">
+                        <p>Номер телефона: <span class="phone">+7 (863) 309-00-03</span></p>
+                        <p><span class="contacts__back-call" onclick="back_call_on();">Обратный звонок</span></p>
+                        <p><span class="contacts__zayavka" onclick="zayavka_on();">Онлайн вызов мастера</span></p>
+                        <p>Наш адрес: <span class="address">344045, г. Ростов-на-Дону, ул. Лелюшенко 1</span></p>
+                        <p>График работы: <span>Ежедневно с 9:00 до 20:00 часов, без перерыва</span></p>
+                        <p>Электронная почта: <span>info@bytmaster-don.ru</span></p>
+                        <div class="contacts-social">
+                        <p>Мы в соцсетях:</p>
+                            <a href="https://vk.com/public174262653"><img src="{% static 'img/icons/social/icons8-vkontakte-48.png' %}" alt="vk"></a>
+                            <a href="#"><img src="{% static 'img/icons/social/icons8-odnoklassniki-48.png' %}" alt="ok"></a>
+                            <a href="#"><img src="{% static 'img/icons/social/icons8-instagram-48.png' %}" alt="insta"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contacts-map">
+                        <h3>Схема проезда</h3>
+                        
+                            <!--  здесь карта -->
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTS end -->
+
+    {% endblock %}
+
+
+    {% block footer %}
+
+        {% include 'main/components/footer.html' %}
+
+    {% endblock %}
+
+</div>
