@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$('.menu-item-54 > .sub-menu').toggleClass('sub-menu_active');
 	})
 
-	// плавный скролл до лябого якоря
+	// плавный скролл до любого якоря
 	$(function(){
 	    $("a[href^='#']").click(function(){
             var _href = $(this).attr("href");
@@ -123,6 +123,18 @@ $(document).ready(function() {
 					arrows: false
 				}
 			}
+		]
+	});
+
+	// About top slider
+	$('.top-slider').slick({
+		autoplay: true,
+		autoplaySpeed: 4000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		responsive: [
+
 		]
 	});
 
