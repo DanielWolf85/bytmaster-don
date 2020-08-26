@@ -20,7 +20,7 @@ def dishwashers_view(request):
     return render(request, 'main/dishwashers.html')
 
 def coffee_machines_view(request):
-    # Ремонт кофемашин
+    # Ремонт кофемашин  
     return render(request, 'main/coffee_machines.html')
 
 def gas_stoves_view(request):

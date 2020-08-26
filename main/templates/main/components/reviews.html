@@ -11,10 +11,10 @@
 		<div class="reviews-body">
 			
 			<!-- Цикл отображения отзывов -->
-					
+			{% for review in reviews %}
 				<div class="review">
 					<div class="person">
-						<span class="name"></span>
+						<span class="name">{{ review.name }}</span>
 						<div class="stars">
 							<img src="{% static 'img/icons/symbols/star.png' %}" alt="star">
 							<img src="{% static 'img/icons/symbols/star.png' %}" alt="star">
@@ -24,11 +24,11 @@
 						</div>
 					</div>
 					<div class="comment">
-						<p></p>
+						<p>{{ review.message }}</p>
 					</div>
 					<p></p>
 				</div>
-
+			{% endfor %}
             <!-- Цикл отображения отзывов end -->
 			
 		</div>

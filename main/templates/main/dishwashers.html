@@ -1,4 +1,5 @@
 {% extends 'main/layouts/base.html' %}
+{% load main_tags %}
 {% load static %}
 
 
@@ -83,7 +84,7 @@
 
     <!-- REVIEWS -->
 
-    {% include 'main/components/reviews.html' %}
+    {% show_all_reviews %}
 
     <!-- REVIEWS end -->
 
