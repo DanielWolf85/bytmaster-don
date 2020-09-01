@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from .models import Review
+from .forms import BackCallForm
+from django.core.mail import send_mail
 
 
 def main_view(request):
@@ -54,3 +56,32 @@ def contacts_view(request):
 def about_view(request):
     # О нас
     return render(request, 'main/about.html')
+
+def privacy_policy_view(request):
+    # Политика конфиденциальности
+    return render(request, 'main/components/privacy_policy.html')
+
+
+
+def back_call_form(request):
+    # обработчик формы обратного звонка
+    sent = False
+    if request.method == 'POST':
+        form = BackCallForm(request.POST)
+        # Если форма заполнена корректно,
+        # сохраняем все введенные значения
+        if form.is_valid():
+            cd = form.cleaned_data
+            subject = 'danielvolf1985@bytmaster-don.com'
+            sender = 'danielvolf1985@bytmaster-don.com'
+            message = str(cd['name']) + " : " + str(cd['phone'])
+            # send mail...
+            send_mail(subject, message, sender, ['danielvolf1985@gmail.com'])
+            sent = True
+    else:
+        form = BackCallForm()
+    # Выводим форму в шаблон
+    return render(request, 'main/components/popup.html', {
+        'form': form,
+        'sent': sent,
+    })

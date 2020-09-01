@@ -36,7 +36,12 @@
         
 		<div class="phone">
 			<span class="phone-item">+7 (863) 309-00-03</span>
-			<a><button class="phone-btn" onclick="back_call_on();">заказать звонок</button></a>
+			<!-- <a><button class="phone-btn" onclick="back_call_on();">заказать звонок</button></a> -->
+			<a href="{% url 'main:back_call_form' %}">
+				<button class="phone-btn">
+					заказать звонок
+				</button>
+			</a>
 		</div>
 
 

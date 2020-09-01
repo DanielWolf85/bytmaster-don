@@ -18,4 +18,6 @@ urlpatterns = [
     path('faq/', views.faq_view, name='faq_view'),
     path('contacts/', views.contacts_view, name='contacts_view'),
     path('about/', views.about_view, name='about_view'),
+    path('privacy-policy/', views.privacy_policy_view, name='privacy_policy_view'),
+    path('back_call/', views.back_call_form, name='back_call_form'),
 ]

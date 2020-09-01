@@ -1,0 +1,36 @@
+<!-- BACK CALL ===================================================================== -->
+<section class="back-call back-call__off">
+	<div class="back-call__cross" onclick="back_call_off();">
+		x
+	</div>
+
+    {% if sent %}
+        <h2>Сообщение успешно отправлено!</h2>
+    {% else %}
+        <h2>Заполните форму</h2>
+        <form action="." method="POST">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button type="submit">Отправить</button>
+        </form>
+	
+        <p class="privacy_checkbox"><input type="checkbox" checked="checked"> С <a href="{% url 'main:privacy_policy_view' %}">политикой конфиденциальности</a> ознакомлен(а)</p>
+        <p>Мы Вам скоро перезвоним!</p>
+    {% endif %}
+</section>
+
+<!-- BACK CALL end ================================================================= -->
+
+
+<!-- ZAYAVKA ==================================================================== -->
+<section class="zayavka zayavka__off">
+	<div class="zayavka__cross" onclick="zayavka_off();">
+		x
+	</div>
+
+	
+
+	<p class="privacy_checkbox"><input type="checkbox" checked="checked"> С <a href="{% url 'main:privacy_policy_view' %}">политикой конфиденциальности</a> ознакомлен(а)</p>
+	
+</section>
+<!-- ZAYAVKA end ================================================================= -->
