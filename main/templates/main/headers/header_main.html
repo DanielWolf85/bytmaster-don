@@ -27,8 +27,11 @@
 					<span class="item"><img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka">быстро и недорого</span>
 					<span class="item"><img src="{% static 'img/icons/symbols/galka-green.png' %}" alt="galka">все модели</span>							
 				</span>				
-				<a>
-					<button class="target-btn" id="target-btn-vizvat-mastera" onclick="ym(62710786,'reachGoal','target-btn-vizvat-mastera'); zayavka_on();">
+				<a href="{% url 'main:zayavka_form' %}">
+					<!-- <button class="target-btn" id="target-btn-vizvat-mastera" onclick="ym(62710786,'reachGoal','target-btn-vizvat-mastera'); zayavka_on();">
+						вызвать мастера
+					</button> -->
+					<button class="target-btn">
 						вызвать мастера
 					</button>
 				</a>

@@ -1,0 +1,46 @@
+{% extends 'main/layouts/base.html' %}
+{% load static %}
+
+<div>
+
+    <!-- HEADER -->
+
+    {% block header %}
+
+        {% include 'main/components/top_nav.html' %}
+
+        <div class="contacts__header"></div>
+
+    {% endblock %}
+
+    <!-- HEADER end -->
+
+
+    <!-- BACK CALL FORM -->
+
+    {% block content %}
+        <div class="back-call-container"}>
+            <section class="back-call-form">
+
+                {% if sent %}
+                    <h2>Ваша заявка успешно обработана!</h2>
+                    <h3>Мы Вам скоро перезвоним!</h3>
+                    <a href="{% url 'main:main_view' %}">На главную</a>
+                {% else %}
+                    <h2>Заполните форму</h2>
+                    <form action="." method="POST">
+                        {{ form.as_p }}
+                        {% csrf_token %}
+                        <button type="submit">Отправить</button>
+                    </form>
+                
+                    <p class="privacy_checkbox"><input type="checkbox" checked="checked"> С <a href="{% url 'main:privacy_policy_view' %}">политикой конфиденциальности</a> ознакомлен(а)</p>
+                    <p>Мы Вам скоро перезвоним!</p>
+                {% endif %}
+            </section>
+        </div>
+    {% endblock %}
+
+    <!-- BACK CALL FORM end ================================================================= -->
+
+</div>

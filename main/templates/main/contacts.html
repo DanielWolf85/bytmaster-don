@@ -33,8 +33,8 @@
                     </div>
                     <div class="contacts-info">
                         <p>Номер телефона: <span class="phone">+7 (863) 309-00-03</span></p>
-                        <p><span class="contacts__back-call" onclick="back_call_on();">Обратный звонок</span></p>
-                        <p><span class="contacts__zayavka" onclick="zayavka_on();">Онлайн вызов мастера</span></p>
+                        <p><a href="{% url 'main:back_call_form' %}" class="contacts__back-call">Обратный звонок</a></p>
+                        <p><a href="{% url 'main:zayavka_form' %}" class="contacts__zayavka">Онлайн вызов мастера</a></p>
                         <p>Наш адрес: <span class="address">344045, г. Ростов-на-Дону, ул. Лелюшенко 1</span></p>
                         <p>График работы: <span>Ежедневно с 9:00 до 20:00 часов, без перерыва</span></p>
                         <p>Электронная почта: <span>info@bytmaster-don.ru</span></p>

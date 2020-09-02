@@ -29,9 +29,11 @@
             </div>
             <div class="target_and_social">
                 <div class="square__target-button">
-                    <button onclick="zayavka_on();">
-                        оформить заявку
-                    </button>
+                    <a href="{% url 'main:zayavka_form' %}">
+                        <button>
+                            оформить заявку
+                        </button>
+                    </a>
                 </div>
                 <div class="square__social">
                     <a href="https://vk.com/public174262653" target="_blank">

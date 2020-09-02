@@ -20,4 +20,5 @@ urlpatterns = [
     path('about/', views.about_view, name='about_view'),
     path('privacy-policy/', views.privacy_policy_view, name='privacy_policy_view'),
     path('back_call/', views.back_call_form, name='back_call_form'),
+    path('zayavka/', views.zayavka_form, name='zayavka_form'),
 ]

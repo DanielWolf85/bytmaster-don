@@ -3100,7 +3100,7 @@ body {
 
 
 /* обратный звонок */
-.back-call { 
+/* .back-call { 
   display: block;
   position: fixed;
   font-size: 3.5rem;
@@ -3170,6 +3170,18 @@ body {
 }
 .back-call a {
   color: red;
+} */
+
+.back-call-container {
+  display: flex;
+  justify-content: center;
+}
+
+.back-call-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  font-family: "Arial";
 }
 
 

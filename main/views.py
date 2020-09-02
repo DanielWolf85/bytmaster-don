@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Review
-from .forms import BackCallForm
+from .forms import BackCallForm, ZayavkaForm
 from django.core.mail import send_mail
 
 
@@ -72,16 +72,40 @@ def back_call_form(request):
         # сохраняем все введенные значения
         if form.is_valid():
             cd = form.cleaned_data
-            subject = 'danielvolf1985@bytmaster-don.com'
-            sender = 'danielvolf1985@bytmaster-don.com'
+            subject = 'danielvolf1985@yandex.ru'
+            sender = 'danielvolf1985@yandex.ru'
             message = str(cd['name']) + " : " + str(cd['phone'])
             # send mail...
-            send_mail(subject, message, sender, ['danielvolf1985@gmail.com'])
+            send_mail(subject, message, sender, ['danielvolf1985@yandex.ru'])
             sent = True
     else:
         form = BackCallForm()
     # Выводим форму в шаблон
-    return render(request, 'main/components/popup.html', {
+    return render(request, 'main/back_call.html', {
+        'form': form,
+        'sent': sent,
+    })
+
+
+def zayavka_form(request):
+    # обработчик формы заявки
+    sent = False
+    if request.method == 'POST':
+        form = ZayavkaForm(request.POST)
+        # Если форма заполнена корректно,
+        # сохраняем все введенные значения
+        if form.is_valid():
+            cd = form.cleaned_data
+            subject = 'danielvolf1985@yandex.ru'
+            sender = 'danielvolf1985@yandex.ru'
+            message = str(cd['name']) + " : " + str(cd['phone']) + "\n" + str(cd['problem'])
+            # send mail...
+            send_mail(subject, message, sender, ['danielvolf1985@yandex.ru'])
+            sent = True
+    else:
+        form = ZayavkaForm()
+    # Выводим форму в шаблон
+    return render(request, 'main/zayavka.html', {
         'form': form,
         'sent': sent,
     })

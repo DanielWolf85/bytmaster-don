@@ -23,7 +23,9 @@
 					<span class="call-free">
 						<span>Вызов мастера бесплатен!</span>
 					</span>
-					<a><button onclick="back_call_on();">+7 (863) 309-00-03</button></a>
+					<a href="{% url 'main:back_call_form' %}">
+						<button>+7 (863) 309-00-03</button>
+					</a>
 				</div>
 				
 			</div>
@@ -39,7 +41,9 @@
 					<span class="call-free">
 						<span>Вызов мастера бесплатен!</span>
 					</span>
-					<a><button onclick="zayavka_on();">оформить заявку</button></a>
+					<a href="{% url 'main:zayavka_form' %}">
+						<button>оформить заявку</button>
+					</a>
 				</div>						
 			</div>
 		</div>
