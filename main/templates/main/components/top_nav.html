@@ -57,15 +57,28 @@
 			<div class="cross" onclick="mobile_menu_off()">
 				X
 			</div>
-
-			<ul>
-				<li><a href="#">главная</a></li>
-				<li><a href="#">услуги</a></li>
-				<li><a href="#">контакты</a></li>
-				<li><a href="#">цены</a></li>
-				<li><a href="#">о нас</a></li>
-			</ul>
-			
+			<nav>
+				<ul class="mobile_first_ul">
+					<li><a href="{% url 'main:main_view' %}">главная</a></li>
+					<li id="mobile_uslugi">
+						услуги и ремонт
+						<ul class="sub-menu">
+							<li><a href="{% url 'main:refrigerators_view' %}">холодильников</a></li>
+							<li><a href="{% url 'main:washing_machines_view' %}">стиральных машин</a></li>
+							<li><a href="{% url 'main:dishwashers_view' %}">посудомоечных машин</a></li>
+							<li><a href="{% url 'main:coffee_machines_view' %}">кофемашин</a></li>
+							<li><a href="{% url 'main:gas_stoves_view' %}">газовых плит</a></li>
+							<li><a href="{% url 'main:hoovers_view' %}">пылесосов</a></li>
+							<li><a href="{% url 'main:installation_view' %}">установка и подключение</a></li>
+							<li><a href="{% url 'main:cleaning_of_air_view' %}">чистка кондиционеров</a></li>
+						</ul>
+					</li>
+					<li><a href="{% url 'main:discounts_view' %}">скидки</a></li>
+					<li><a href="{% url 'main:faq_view' %}">faq</a></li>
+					<li><a href="{% url 'main:contacts_view' %}">контакты</a></li>
+					<li><a href="{% url 'main:about_view' %}">о нас</a></li>
+				</ul>
+			</nav>
 		</div>
 		
 	</div>

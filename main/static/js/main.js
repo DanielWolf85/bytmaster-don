@@ -2,8 +2,8 @@ $(document).ready(function() {
 
 	// для выпадающего списка мобильного меню
 
-	$('.menu-item-54').click(function() {
-		$('.menu-item-54 > .sub-menu').toggleClass('sub-menu_active');
+	$('#mobile_uslugi').click(function() {
+		$('#mobile_uslugi > .sub-menu').toggleClass('sub-menu_active');
 	})
 
 	// плавный скролл до любого якоря

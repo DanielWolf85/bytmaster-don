@@ -255,17 +255,20 @@ body {
 
   /*border: 1px solid #ccc;*/
   padding: 3rem;
+  text-transform: uppercase;
 }
 .general_nav .top-nav .mobile_nav > nav > ul > li > a {
   
   text-decoration: none;
-  text-transform: uppercase;
+  
   color: black;
 }
+
 .general_nav .top-nav .mobile_nav > nav > ul > li > a:hover {
   cursor: pointer;
   color: #e30611;
 }
+
 .general_nav .top-nav .mobile_nav > nav > ul > li > .sub-menu {
   margin-left: 3rem;
   display: none;
@@ -284,10 +287,10 @@ body {
   cursor: pointer;
   color: #e30611;
 }
-.general_nav .top-nav .mobile_nav > nav > ul > .menu-item-54:after {
+.general_nav .top-nav .mobile_nav > nav > ul > #mobile_uslugi {
   content: '\2192';
 }
-.general_nav .top-nav .mobile_nav > nav > ul > .menu-item-54:hover .sub-menu {
+.general_nav .top-nav .mobile_nav > nav > ul > #mobile_uslugi .sub-menu {
   
   text-align: left;
   padding: 0;
@@ -3630,6 +3633,15 @@ body {
   max-width: 80%;
   margin: 0 auto;
   padding: 20rem 0;
+}
+.sertificats .container #gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sertificats .container #gallery .sertificat_image {
+  width: 100%;
+  padding: 3rem;
 }
 
 
