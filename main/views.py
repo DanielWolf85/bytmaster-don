@@ -74,7 +74,8 @@ def back_call_form(request):
             cd = form.cleaned_data
             subject = 'danielvolf1985@yandex.ru'
             sender = 'danielvolf1985@yandex.ru'
-            message = str(cd['name']) + " : " + str(cd['phone'])
+            # message = str(cd['name']) + " : " + str(cd['phone'])
+            message = "Обратный звонок!\n\nМеня зовут: " + str(cd['name']) + "\nПерезвоните мне на номер: " + str(cd['phone']) + "\n\nЗаявка пришла с нового сайта bytmaster-don.com"
             # send mail...
             send_mail(subject, message, sender, ['danielvolf1985@yandex.ru'])
             sent = True
@@ -98,7 +99,7 @@ def zayavka_form(request):
             cd = form.cleaned_data
             subject = 'danielvolf1985@yandex.ru'
             sender = 'danielvolf1985@yandex.ru'
-            message = str(cd['name']) + " : " + str(cd['phone']) + "\n" + str(cd['problem'])
+            message = "Заявка!\n\n" + "Меня зовут: " + str(cd['name']) + "\nМой телефон: " + str(cd['phone']) + "\nУ меня такая проблема: " + str(cd['problem']) + "\n\nЗаявка пришла с нового сайта bytmaster-don.com"
             # send mail...
             send_mail(subject, message, sender, ['danielvolf1985@yandex.ru'])
             sent = True

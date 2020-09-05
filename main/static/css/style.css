@@ -3690,3 +3690,26 @@ body {
 }
 
 
+
+/* ФОРМА ЗАЯВКИ */
+.back-call-container .back-call-form {
+  margin: auto 4rem;
+}
+.back-call-container .back-call-form form p input {
+  margin-left: 12rem;
+}
+.back-call-container .back-call-form form p textarea {
+  margin-left: 3rem;
+}
+.back-call-container .back-call-form form button {
+  width: 40rem;
+  height: 10rem;
+  border-radius: 2rem;
+  background-color: #00b000;
+  color: #dcdcdc;
+  transition: 0.4s;
+}
+.back-call-container .back-call-form form button:hover {
+  background-color: #4fff4f;
+  color: black;
+}

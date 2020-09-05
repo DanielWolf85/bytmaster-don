@@ -1107,7 +1107,22 @@
   }
 
 
+  /* ФОРМА ЗАЯВКИ */
+
+  .back-call-container .back-call-form form p input {
+    margin-left: 6rem;
+  }
+  .back-call-container .back-call-form form p textarea {
+    margin-left: 3rem;
+  }
 
 
 }
+
+
+
+
+
+
+
 /*# sourceMappingURL=adaptive_480.css.map */
